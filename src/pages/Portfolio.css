@@ -1,0 +1,12 @@
+#portfolio{
+  display: flex;
+  justify-items: center;
+  margin:2rem;
+  padding: 4rem;
+  overflow: hidden;
+}
+
+.portSlides {
+    display: flex;
+    flex-wrap: wrap;
+}

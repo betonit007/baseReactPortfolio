@@ -9,36 +9,35 @@ import Extra from './Extra';
 
 const Main = () => {
 
-  const [inView, setinView] = useState(null);
+  const [inViewLow, setinViewLow] = useState(null);
+  const [inViewHigh, setinViewHigh] = useState(null);
 
-  const setNavBarStill = (arg) => {
-    setinView(arg);
-    if (!arg) {
-      navBarWatch.disconnect();
-      navBarWatch.observe(document.querySelector("#about"))
-    }
-  }
+  const watchLow = new IntersectionObserver(([entries]) => {  // class IntersectionObserver monitors targeted div (#nav) to see if it intersects viewport
+    setinViewLow(entries.isIntersecting);
+  }, { threshold: [.01] })
 
-  const navBarWatch = new IntersectionObserver(([entries]) => {  // class IntersectionObserver monitors targeted div (#nav) to see if it intersects viewport
-    setNavBarStill(entries.isIntersecting)
-  }, { threshold: [1] })
+  const watchHigh = new IntersectionObserver(([entries]) => {  // class IntersectionObserver monitors targeted div (#nav) to see if it intersects viewport
+    
+    setinViewHigh(entries.isIntersecting)
+  }, { threshold: [.01] })
 
   useEffect(() => {
     // observing a target element
-    navBarWatch.observe(document.querySelector("#nav"));
+    watchLow.observe(document.querySelector("#lower"));
+    watchHigh.observe(document.querySelector("#landing"));
+
   }, [])
-
-
-
 
   return (
     <>
-      <Landing />
-      <Navbar inView={inView} />
+      <Landing setinViewLow={setinViewLow}/>
+      <Navbar inViewHigh={inViewHigh} inViewLow={inViewLow} />
       <AboutMe />
-      <Portfolio />
-      <Contact />
-      <Extra />
+      <div id='lower'>
+        <Portfolio />
+        <Contact />
+        <Extra />
+      </div>
     </>
   )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Extra = () => {
     return (
-        <div id='extra' style={{height:'100vh', backgroundColor:'blue'}}>
+        <div id='extra' className='bThree' style={{height:'100vh', backgroundColor:'blue'}}>
             Extra
         </div>
     )

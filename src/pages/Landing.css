@@ -1,0 +1,18 @@
+#landing {
+    background-image: 
+    linear-gradient(
+      to bottom,
+      rgba(185, 224, 240, 0.801),
+      rgba(67, 139, 247, 0.801)),
+      url(../utils/imgs/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-primary-main {
+  
+}

@@ -1,18 +1,23 @@
 import React, { useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
 
-const AboutMe = () => {
+import './Landing.css';
 
-  const [testBool, setTestBool] = useState(false);
-  const changeBoolState = () => {
-    setTestBool(!testBool);
-  }
+const AboutMe = ({ setinViewLow }) => {
 
   return (
-    <div id='landing' style={{height:'100vh', backgroundColor:'orange'}}>
-      <HashLink smooth to="/#about">
-        click here
-      </HashLink>
+    <div id='landing' style={{ height: '100vh' }}>
+      
+      <h1 className="heading-primary">
+        <span className="heading-primary-main">Hello, I'm Tim Nagorski</span>
+        <span className="heading-primary-sub"></span>
+      </h1>
+
+      <div>
+        <HashLink onClick={setinViewLow(true)} smooth to="/#about">
+          Click Here
+        </HashLink>
+      </div>
     </div>
 
   )

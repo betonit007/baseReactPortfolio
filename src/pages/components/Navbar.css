@@ -1,0 +1,46 @@
+@keyframes moveInFromTop {
+    0% {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+
+    80% {
+      transform: translateY(7px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+}
+
+#nav {
+  height: 50px;
+}
+
+.navWrapper {
+  height: 50px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    margin: 1rem;
+}
+
+
+.fixedNavbar {
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+    animation: moveInFromTop .5s ease-out;
+
+}
+
+.mChange {
+  background-color: red;
+}
