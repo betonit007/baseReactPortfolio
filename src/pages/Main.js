@@ -30,7 +30,7 @@ const Main = () => {
 
   return (
     <>
-      <Landing setinViewLow={setinViewLow}/>
+      <Landing setinViewLow={setinViewLow} />
       <Navbar inViewHigh={inViewHigh} inViewLow={inViewLow} />
       <AboutMe />
       <div id='lower'>
