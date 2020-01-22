@@ -8,7 +8,7 @@ const Portfolio = () => {
   const [pFilter, setPFilter] = useState('A');
 
   return (
-    <div id='portfolio' style={{height:'100vh', backgroundColor:'aqua'}}>
+    <div id='portfolio' style={{height:'100vh'}}>
       <div className="portMenu">
         <div className="cursor-pointer" onClick={() => setPFilter('A')}>All</div>
         <div className='cursor-pointer' onClick={() => setPFilter('Node')}>Node.js</div>

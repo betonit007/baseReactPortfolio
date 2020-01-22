@@ -1,23 +1,20 @@
 @keyframes moveDownToLeft {
   0% {
-    height: 15%;
-    width: 15%;
-    transform: translateY(-10vh);
-    opacity: 0;
+    height: 50%;
+    width: 50%;
+    transform: translate(20vw, -20vh);
   }
 
-  50% {
-    height: 40%;
-    width: 40%;
-    opacity: .5;
-    transform: translate(-10vw, 25vh);
+  75% {
+    height: 15%;                   /* between 50% and 100% nothing changes, this is how to create a delay between animation iterations */
+    width: 15%;
+    transform: translate(115vw, -115vh);
   }
 
   100% {
-    height: 100%;
-    width: 100%;
-    opacity: .75;
-    transform: translate(-20vw, 55vh);
+    height: 15%;
+    width: 15%;
+    transform: translate(115vw, -115vh);
   }
 }
 
@@ -29,10 +26,10 @@
 #landing {
     background-image: 
     linear-gradient(
-      to bottom,
-      rgba(185, 224, 240, 0.801),
-      rgba(67, 139, 247, 0.801)),
-      url(../utils/imgs/landing.jpg);
+      to bottom left,
+      rgba(111, 197, 231, 0.801),
+      rgba(4, 63, 156, 0.801))
+      /* url(../utils/imgs/landing.jpg) */;
     background-size: cover;
     background-position: center;
     position: relative; /*Issue with cloud animation overflowing outside of parent element. */
@@ -47,18 +44,39 @@
   z-index: 10;
 }
 
-
-.cloud1 {
-  z-index: 1;
-  position: absolute;
-  top: 30vh;
-  height: 300px;
-  width: 300px;
-  background-image: 
-    url(../utils/imgs/cloud.png);
-    background-size: cover;
-    background-position: center;
-  animation: moveDownToLeft 3s;
+.plane1 {
+  right: 100vw;
+  top: 100vh;
+  animation: moveDownToLeft 2s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
+
+.plane2 {
+  right: 120vw;
+  top: 70vh;
+  animation: moveDownToLeft 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+ 
+}
+
+.plane3 {
+  right: 50vw;
+  top: 110vh;
+  animation: moveDownToLeft 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+ 
+}
+
+ .planeFlight {
+  z-index: 1;
+  position: absolute;
+  background-image: 
+    url(../utils/imgs/pAirplane3.png);
+    background-size: cover;
+    background-position: center;
+} 

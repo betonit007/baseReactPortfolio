@@ -10,3 +10,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.portMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
