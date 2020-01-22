@@ -39,6 +39,7 @@ const Navbar = ({ inViewHigh, inViewLow }) => {
 
 
   return (
+    <div className="navWrapper">
       <div id="nav" className={`${(!inViewHigh && inViewLow) ? 'fixedNavbar' : 'navRelative'}  `}>
         <ul className="linkContainer">
           <li className={`${divView === 'landing' ? 'mChange' : ''} `}>
@@ -58,6 +59,7 @@ const Navbar = ({ inViewHigh, inViewLow }) => {
           </li>
         </ul>
       </div>
+    </div>
   )
 }
 
