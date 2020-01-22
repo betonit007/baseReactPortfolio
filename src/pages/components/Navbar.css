@@ -14,12 +14,31 @@
     }
 }
 
-#nav {
-  height: 50px;
+@keyframes changeBackground {
+  0%   {
+    background: none;
+    color: inherit;
+  }
+  25% {
+    color: #fff;
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0.748);
+    color: #fff;
+  }
 }
 
-.navWrapper {
+#nav {
   height: 50px;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.748);
+}
+
+.linkContainer {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 ul {
@@ -28,7 +47,9 @@ ul {
 }
 
 li {
-    margin: 1rem;
+    height: 100%;
+    padding: 0 1rem;
+    margin-bottom: .3px;
 }
 
 
@@ -37,10 +58,29 @@ li {
     top: 0;
     background-color: #fff;
     width: 100%;
-    animation: moveInFromTop .5s ease-out;
-
+    animation-name: moveInFromTop;
+    animation-duration: .7s;
 }
 
 .mChange {
-  background-color: red;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.748);
+  color: #fff;
+  animation-name: changeBackground;
+  animation-duration: 1s;
+}
+
+a {
+ color: inherit;
+ height: 100%;
+ font-size: 1.5rem;
+ display: flex;
+ align-items: center;
+}
+
+@media screen and (max-width: 720px) {
+  .linkContainer {
+  width: 100%;
+  }
 }
