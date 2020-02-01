@@ -37,25 +37,25 @@ const Navbar = ({ inViewHigh, inViewLow }) => {
     divWatch.observe(document.querySelector("#landing"));
   }, [])
 
-
+  // This extra navWrapper, below, is to fill space when navbar dynamically goes to fixed position
   return (
     <div className="navWrapper">
       <div id="nav" className={`${(!inViewHigh && inViewLow) ? 'fixedNavbar' : 'navRelative'}  `}>
         <ul className="linkContainer">
           <li className={`${divView === 'landing' ? 'mChange' : ''} `}>
-            <HashLink smooth to="/#landing">Home</HashLink>
+            <HashLink className='navAnchor' smooth to="/#landing">Home</HashLink>
           </li>
           <li className={`${divView === 'about' ? 'mChange' : ''} `}>
-            <HashLink smooth to="/#about">About</HashLink>
+            <HashLink  className='navAnchor' smooth to="/#about">About</HashLink>
           </li>
           <li className={`${divView === 'portfolio' ? 'mChange' : ''} `}>
-            <HashLink smooth to="/#portfolio">Projects</HashLink>
+            <HashLink  className='navAnchor' smooth to="/#portfolio">Projects</HashLink>
           </li>
           <li className={`${divView === 'contact' ? 'mChange' : ''} `}>
-            <HashLink smooth to="/#contact">Contact</HashLink>
+            <HashLink  className='navAnchor' smooth to="/#contact">Contact</HashLink>
           </li>
           <li className={`${divView === 'extra' ? 'mChange' : ''} `}>
-            <HashLink smooth to="/#extra">Extra</HashLink>
+            <HashLink  className='navAnchor' smooth to="/#extra">Extra</HashLink>
           </li>
         </ul>
       </div>

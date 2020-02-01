@@ -1,4 +1,4 @@
-@keyframes moveDownToLeft {
+@keyframes moveUpToRight {
   0% {
     height: 50%;
     width: 50%;
@@ -17,6 +17,7 @@
     transform: translate(115vw, -115vh);
   }
 }
+
 
 .raise {
   z-index: 10;
@@ -40,14 +41,31 @@
     align-items: center;
 }
 
-.hashLink-container {
+h1,
+.learn,
+.hashLink-container,
+.heading-primary-sub,
+.myName {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 300;
   z-index: 10;
 }
 
+a:link, a:visited {
+  text-decoration: none;
+  color: rgb(70, 90, 189);
+  cursor: pointer;
+}
+
+.myName {
+  color: #fff;
+}
+
 .plane1 {
-  right: 100vw;
+  right: 110vw;
   top: 100vh;
-  animation: moveDownToLeft 2s;
+  animation: moveUpToRight 2s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -55,17 +73,16 @@
 .plane2 {
   right: 120vw;
   top: 70vh;
-  animation: moveDownToLeft 3s;
+  animation: moveUpToRight 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-delay: 1s;
- 
 }
 
 .plane3 {
-  right: 50vw;
-  top: 110vh;
-  animation: moveDownToLeft 3s;
+  right: 55vw;
+  top: 120vh;
+  animation: moveUpToRight 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-delay: 1s;

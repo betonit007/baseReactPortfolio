@@ -23,18 +23,19 @@
     color: #fff;
   }
   100% {
-    background-color: rgba(0, 0, 0, 0.748);
+    border: 1.5px solid rgb(70, 90, 189);;
     color: #fff;
   }
 }
 
 #nav {
   height: 50px;
-  border-bottom: 1.5px solid rgba(0, 0, 0, 0.748);
+  border-bottom: 1px solid blue;
+  background-color: lightgrey;
 }
 .navWrapper {
   height: 50px;
-  border-bottom: 1.5px solid rgba(0, 0, 0, 0.748);
+  border-bottom: 1px solid blue;
 }
 
 .linkContainer {
@@ -53,7 +54,7 @@ ul {
 li {
     height: 100%;
     padding: 0 1rem;
-    margin-bottom: .3px;
+    
 }
 
 
@@ -64,18 +65,19 @@ li {
     width: 100%;
     animation-name: moveInFromTop;
     animation-duration: .7s;
+    z-index: 10;
 }
 
 .mChange {
   height: 100%;
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.748);
-  color: #fff;
+  border: 1.5px solid rgb(70, 90, 189);
+  background-color: #fff;
   animation-name: changeBackground;
   animation-duration: 1s;
 }
 
-a {
+.navAnchor {
  color: inherit;
  height: 100%;
  font-size: 1.5rem;

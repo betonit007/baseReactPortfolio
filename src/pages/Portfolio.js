@@ -8,20 +8,17 @@ const Portfolio = () => {
   const [pFilter, setPFilter] = useState('A');
 
   return (
-    <div id='portfolio' style={{height:'100vh'}}>
+    <div id='portfolio' style={{ height: '100vh', backgroundColor: 'aqua' }}>
       <div className="portMenu">
-        <div className="cursor-pointer" onClick={() => setPFilter('A')}>All</div>
-        <div className='cursor-pointer' onClick={() => setPFilter('Node')}>Node.js</div>
-        <div className='cursor-pointer' onClick={() => setPFilter('javascript')}>Javascript</div>
-        <div className='cursor-pointer' onClick={() => setPFilter('jquery')}>JQuery</div>
-        <div className='cursor-pointer' onClick={() => setPFilter('React')}>React</div>
+        <div className="techSelection all" onClick={() => setPFilter('A')}>All</div>
+        <div className='techSelection node' onClick={() => setPFilter('Node')}>Node.js</div>
+        <div className='techSelection javascript' onClick={() => setPFilter('javascript')}>Javascript</div>
+        <div className='techSelection jquery' onClick={() => setPFilter('jquery')}>JQuery</div>
+        <div className='techSelection react' onClick={() => setPFilter('React')}>React</div>
       </div>
-      <div className="portSlidesContainer">
 
-        <div className={`${pFilter === 'A' ? '' : ''} portSlides`}>
-          {allProjects.filter(p => p.Description.includes(pFilter)).map((p, i) => <ProjectCard key={i} item={p} />)}
-        </div>
-
+      <div className={`${pFilter === 'A' ? 'allSlides' : 'otherSlides'} `}>
+        {allProjects.filter(p => p.Description.includes(pFilter)).slice(0, 8).map((p, i) => <ProjectCard key={i} item={p} />)}
       </div>
     </div>
 

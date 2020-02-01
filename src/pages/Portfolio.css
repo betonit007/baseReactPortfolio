@@ -1,18 +1,52 @@
 #portfolio{
   display: flex;
   justify-items: center;
-  margin:2rem;
-  padding: 4rem;
-  overflow: hidden;
-}
-
-.portSlides {
-    display: flex;
-    flex-wrap: wrap;
+  padding-top: 50px;
 }
 
 .portMenu {
+  flex: 0 0 10%;
+  background-color: lightcoral;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
+
+}
+
+/* FLEX FOR ALL SLIDES */
+/* .allSlides {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: lawngreen;
+    overflow: scroll;
+    
+} */
+
+.allSlides {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  background-color: lawngreen;
+}
+
+.otherSlides {
+  height: 100;
+}
+
+.techSelection {
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.jquery {
+  background-image: url('../utils/imgs/jquery.png');
+  background-color: lightcoral;
 }

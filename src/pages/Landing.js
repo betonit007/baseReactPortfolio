@@ -12,12 +12,12 @@ const AboutMe = ({ setinViewLow }) => {
       <div className='plane3 planeFlight'/>
       
       <h1 className="heading-primary">
-        <span className="heading-primary-main">Hello, I'm Tim Nagorski</span>
-        <span className="heading-primary-sub"></span>
+        Hello, I'm <span className='myName'>Tim Nagorski</span>
+        <div className="heading-primary-sub">I'm a full-stack developer</div>
       </h1>
       
       <div className='hashLink-container'>
-        <HashLink onClick={setinViewLow(true)} smooth to="/#about">
+        <HashLink className="learn" onClick={setinViewLow(true)} smooth to="/#about">
           Click Here
         </HashLink>
       </div>
