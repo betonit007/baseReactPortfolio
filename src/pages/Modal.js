@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 //import PicScroller from './PicScroller';
 
-const Modal = () => {
+const Modal = ({ setModal }) => {
 
   const modalContainer = {
       backgroundColor: 'rgba(0, 0, 0, .7)',
       position: 'fixed',
       display: 'flex',
       alignItems: 'center',
-      jusifyContent: 'center',
+      justifyContent: 'center',
       top: 0,
       right: 0,
       width: '100%',
@@ -39,8 +39,8 @@ const Modal = () => {
   
 
     return ReactDOM.createPortal(
-        <div onClick={()=>console.log('deSelect')} style={modalContainer} className=''>
-            <div onClick={(e)=>e.stopPropagation()} >
+        <div onClick={()=>setModal(false)} style={modalContainer} className=''>
+            <div onClick={(e)=>e.stopPropagation()} style={modalContent}>
                 <div className='' style={topModal} >
                   
                 </div>
