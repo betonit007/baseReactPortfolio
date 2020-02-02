@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import ProjectCard from './components/ProjectCard';
+import Modal from './Modal';
 import allProjects from '../utils/projects.json';
 import './Portfolio.css';
 
 const Portfolio = () => {
 
   const [pFilter, setPFilter] = useState('A');
+  const [displayModal, setModal] = useState(false);
 
   return (
     <div id='portfolio' style={{ height: '100vh', backgroundColor: 'aqua' }}>
@@ -16,7 +18,7 @@ const Portfolio = () => {
         <div className='techSelection jquery' onClick={() => setPFilter('jquery')}>JQuery</div>
         <div className='techSelection react' onClick={() => setPFilter('React')}>React</div>
       </div>
-
+      {displayModal && <Modal />}
       <div className={`${pFilter === 'A' ? 'allSlides' : 'otherSlides'} `}>
         {allProjects.filter(p => p.Description.includes(pFilter)).slice(0, 8).map((p, i) => <ProjectCard key={i} item={p} />)}
       </div>

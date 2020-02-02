@@ -3,12 +3,14 @@
         "projectName": "Connected Cars",
         "githubUrl": "https://github.com/betonit007/connectedCars",
         "deployedLink": "https://calm-taiga-28234.herokuapp.com/",
+        "techs": "React / Hooks / JSON Webtoken / MongoDB / Express",
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/connectedCars.png?raw=true",
         "Description": "A React Hooks Context Full-Stack Mongoose JWT Bcrypt"
     },
     {
         "projectName": "Studdy Buddy",
         "githubUrl": "https://github.com/betonit007/finalStudyBuddy",
+        "techs": "React / Context Hooks / MongoDB-Mongoose / Express",
         "deployedLink": "https://studybuddyunc.herokuapp.com/",
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/studbud.jpg?raw=true",
         "Description": "A React Hooks Context Mongoose Full-Stack"
@@ -16,6 +18,7 @@
     {
         "projectName": "Google Books",
         "githubUrl": "https://github.com/betonit007/GoogleBooks",
+        "techs": "React / Socket.IO / MongoDB-Mongoose / Express",
         "deployedLink": "https://infinite-island-90078.herokuapp.com/",
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/googlebooks.jpg?raw=true",
         "Description": "A React MongoDB Socketio"
@@ -23,6 +26,7 @@
     {
         "projectName": "Sky Scrapers",
         "githubUrl": "https://github.com/betonit007/Scraping_Jets",
+        "techs": "Handlebars / Express / MongoDB-Mongoose / JQuery",
         "deployedLink": "https://scrapingjets.herokuapp.com/",
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/nyj.jpg?raw=true",
         "Description": "A jQuery Mysql Handlebars"
@@ -30,6 +34,7 @@
     {
         "projectName": "Fort-Click",
         "githubUrl": "https://github.com/betonit007/fort-click",
+        "techs": "React",
         "deployedLink": "https://fort-click.herokuapp.com/",
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/fortnight.jpg?raw=true",
         "Description": "A React"
@@ -37,6 +42,7 @@
     {
         "projectName": "Fuel 4 Thought",
         "githubUrl": "https://github.com/betonit007/fuelOCR",
+        "techs": "Google-OCR / MySQL - Sequilize / JQuery / Express",
         "deployedLink": "https://whispering-mesa-87259.herokuapp.com/",
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/fuel2.jpg?raw=true",
         "Description": "A JQuery Handlebars Google-OCR"
@@ -45,19 +51,22 @@
         "projectName": "Burger Time",
         "githubUrl": "https://github.com/betonit007/sequelizedBurger",
         "deployedLink": "https://pacific-hollows-84060.herokuapp.com/",
+        "techs": "MySQL / JQuery / Express",
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/burger.jpg?raw=true",
         "Description": "A mysql sequilize jquery handlebars"
     },
     {
         "projectName": "Friend Finder",
         "githubUrl": "https://github.com/betonit007/friend_finder",
+        "techs": "JQuery / Express",
         "deployedLink": "https://hidden-ocean-70955.herokuapp.com/",
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/finder.jpg?raw=true",
-        "Description": "A jquery "
+        "Description": "A Dating / MatchMaker App"
     },
     {
         "projectName": "Bounty-Hunter Battle",
         "githubUrl": "https://github.com/betonit007/StarWars",
+        "techs": "Javascript / CSS / HTML",
         "deployedLink": "https://betonit007.github.io/StarWars/index.html",
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/bounty.jpg?raw=true",
         "Description": "A javascript "
