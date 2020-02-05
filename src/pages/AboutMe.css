@@ -1,0 +1,36 @@
+.aboutMeContainer {
+    display:flex;
+    height: 100%;
+    align-content: center;
+    margin: 0 10%;
+    
+   
+}
+
+.photo {
+  display: flex;
+  flex: 0 0 50%;
+  background-color: blueviolet;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio {
+    flex: 0 0 50%;
+    background-color: chartreuse;
+    
+}
+
+img {
+    border-radius: 50%;
+    width: 75%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+}
+
+@media screen and (max-width: 1024px) {
+    .aboutMeContainer {
+        flex-direction: column;
+    }
+  }

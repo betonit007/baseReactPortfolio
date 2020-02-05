@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './ProjectCard.css'
 
-const ProjectCard = ({ setModal, item: { techs, deployedLink, githubUrl, imgUrl, projectName } }) => {
+const ProjectCard = ({ setModal, item, item: { techs, deployedLink, githubUrl, imgUrl, projectName } }) => {
 
 
    const styles = { 
@@ -24,7 +24,7 @@ const ProjectCard = ({ setModal, item: { techs, deployedLink, githubUrl, imgUrl,
       <div className="projectInfo">
         <p className="pName">{projectName}</p>
         <p className="techs">{techs}</p>
-        <div className="learnMore" onClick={()=>setModal(true)}>Learn More</div>
+        <div className="learnMore" onClick={()=>setModal(item)}>Learn More</div>
       </div>
     </div>
 

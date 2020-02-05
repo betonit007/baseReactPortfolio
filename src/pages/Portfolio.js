@@ -20,19 +20,23 @@ const Portfolio = () => {
       </div>
       {displayModal &&
         <Modal
+          displayModal={displayModal}
           setModal={setModal}
         />
       }
-      <div className={`${pFilter === 'A' ? 'allSlides' : 'otherSlides'} `}>
-        {allProjects.filter(p => p.Description.includes(pFilter)).slice(0, 8).map((p, i) =>
-          <ProjectCard
-            key={i}
-            item={p}
-            setModal={setModal}
-          />
-        )
-        }
+      <div className='portSlideContainer'>
+        <div className={`${pFilter === 'A' ? 'allSlides' : 'otherSlides'} `}>
+          {allProjects.filter(p => p.Description.includes(pFilter)).slice(0, ).map((p, i) =>
+            <ProjectCard
+              key={i}
+              item={p}
+              setModal={setModal}
+            />
+          )
+          }
+        </div>
       </div>
+      
     </div>
 
   )

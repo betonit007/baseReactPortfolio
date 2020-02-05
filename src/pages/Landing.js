@@ -5,7 +5,7 @@ import './Landing.css';
 const AboutMe = ({ setinViewLow }) => {
 
   return (
-    <div id='landing' style={{ height: '100vh' }}>
+    <div id='landing' style={{ height: '100vh'}}>
 
       <div className='plane1 planeFlight'/>
       <div className='plane2 planeFlight'/>

@@ -97,3 +97,9 @@ a:link, a:visited {
     background-size: cover;
     background-position: center;
 } 
+
+@media screen and (max-width: 600px) {
+  .planeFlight {
+   display: none;
+  }
+}

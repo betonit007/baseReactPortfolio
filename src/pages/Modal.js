@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import PicScroller from './PicScroller';
+import PicScroller from './components/PicScroller';
 
-const Modal = ({ setModal }) => {
+const Modal = ({ setModal, displayModal }) => {
+
+  console.log(displayModal);
 
   const modalContainer = {
       backgroundColor: 'rgba(0, 0, 0, .7)',
@@ -17,11 +19,13 @@ const Modal = ({ setModal }) => {
   }
 
   const modalContent = {
-    height: '95vh',
-    width: '85vh',
+    height: '85%',
+    width: '50%',
     display: 'flex',
     flexDirection: 'column',
-    backgroundColor: 'white'
+    backgroundColor: 'white',
+    borderRadius: '5px',
+    marginTop: '50px'
   }
 
   const topModal = {
@@ -34,7 +38,9 @@ const Modal = ({ setModal }) => {
     backgroundColor: 'grey',
     height: '50%',
     display: 'flex',
-    jusifyContent: 'center'
+    jusifyContent: 'center',
+    borderBottomLeftRadius: '5px',
+    borderBottomRightRadius: '5px'
   }
   
 
@@ -42,10 +48,10 @@ const Modal = ({ setModal }) => {
         <div onClick={()=>setModal(false)} style={modalContainer} className=''>
             <div onClick={(e)=>e.stopPropagation()} style={modalContent}>
                 <div className='' style={topModal} >
-                  
+                  <PicScroller pics={[1, 2, 4]}/>
                 </div>
                 <div className='' style={bottomModal}>
-                 Formerly Car Info
+                  
                 </div>
             </div>
         </div>, document.querySelector('#modal')
