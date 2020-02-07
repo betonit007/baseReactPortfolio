@@ -58,6 +58,7 @@ const Navbar = ({ inViewHigh, inViewLow }) => {
             <HashLink  className='navAnchor' smooth to="/#extra">Extra</HashLink>
           </li>
         </ul>
+        
       </div>
     </div>
   )

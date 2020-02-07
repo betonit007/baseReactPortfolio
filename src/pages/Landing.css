@@ -54,7 +54,7 @@ h1,
 
 a:link, a:visited {
   text-decoration: none;
-  color: rgb(70, 90, 189);
+  color: blue;
   cursor: pointer;
 }
 
@@ -101,5 +101,8 @@ a:link, a:visited {
 @media screen and (max-width: 600px) {
   .planeFlight {
    display: none;
+  }
+  .heading-primary, .myName, .heading-primary-sub {
+    font-size: 3rem;
   }
 }

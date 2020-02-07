@@ -1,10 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import PicScroller from './components/PicScroller';
+import './Modal.css';
 
-const Modal = ({ setModal, displayModal }) => {
+const Modal = ({ setModal, imgName, item }) => {
 
-  console.log(displayModal);
+  const picsArray = item.scrollPics ? item.scrollPics.split(' ') : imgName.split(' ');
+
+  const scrollImages = []
+  picsArray.forEach(pic => {
+    let img = require(`../utils/imgs/${pic}`)
+    scrollImages.push(img)
+  })
 
   const modalContainer = {
       backgroundColor: 'rgba(0, 0, 0, .7)',
@@ -43,12 +50,17 @@ const Modal = ({ setModal, displayModal }) => {
     borderBottomRightRadius: '5px'
   }
   
+  const renderModal = () => {
+    document.body.style.overflow = 'visible'
+    setModal(false)
+  }
+  
 
     return ReactDOM.createPortal(
-        <div onClick={()=>setModal(false)} style={modalContainer} className=''>
+        <div onClick={()=>renderModal(false)} style={modalContainer} className=''>
             <div onClick={(e)=>e.stopPropagation()} style={modalContent}>
                 <div className='' style={topModal} >
-                  <PicScroller pics={[1, 2, 4]}/>
+                  <PicScroller pics={scrollImages}/>
                 </div>
                 <div className='' style={bottomModal}>
                   

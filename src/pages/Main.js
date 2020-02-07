@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-
 import Landing from './Landing';
 import AboutMe from './AboutMe'
 import Navbar from './components/Navbar';

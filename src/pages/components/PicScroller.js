@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 
-//import Spinner from '../layout/Spinner';
-
 const PicScroller = ({ pics }) => {
     
     const [picPosition, setPicPosition] = useState(0)
@@ -23,8 +21,6 @@ const PicScroller = ({ pics }) => {
     }
     
     const toggleStyles = {
-
-
       fontSize: '50px',
       display: 'flex',
       alignItems: 'center',
@@ -32,10 +28,9 @@ const PicScroller = ({ pics }) => {
       opacity: '.4',
     }
 
-    let bg = require('../../utils/imgs/bounty.jpg')
-
     return (
-        <div className='scrollerContainer' style={{ display: 'flex', width: '100%', backgroundImage: `url(${bg})`, backgroundSize: `contain`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', filter: 'blur(6px)'}}>
+        <div className='scrollerContainer' style={{ display: 'flex', width: '100%', backgroundImage: `url(${pics[picPosition]})`, backgroundSize: `contain`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+          {/* to blur background - image filter: 'blur(6px)' */}
           <div className="pointerLeft" style={{...toggleStyles, marginRight: 'auto'}} onClick={()=>togglePicDown()}>
             &#60;
           </div>

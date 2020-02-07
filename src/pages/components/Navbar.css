@@ -23,7 +23,7 @@
     color: #fff;
   }
   100% {
-    border: 1.5px solid rgb(70, 90, 189);;
+    border: 1.5px solid blue;
     color: #fff;
   }
 }
@@ -71,7 +71,7 @@ li {
 .mChange {
   height: 100%;
   border-radius: 10px;
-  border: 1.5px solid rgb(70, 90, 189);
+  border: 1.5px solid blues;
   background-color: #fff;
   animation-name: changeBackground;
   animation-duration: 1s;
