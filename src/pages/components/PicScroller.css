@@ -1,0 +1,15 @@
+.pointerLeft, .pointerRight {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    opacity: .4;
+  }
+
+.pointerLeft:hover, .pointerRight:hover {
+    opacity: 1;
+}
+
+.pointerLeft {
+    margin-right: auto;
+}

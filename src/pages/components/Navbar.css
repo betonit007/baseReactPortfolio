@@ -14,24 +14,10 @@
     }
 }
 
-@keyframes changeBackground {
-  0%   {
-    background: none;
-    color: inherit;
-  }
-  25% {
-    color: #fff;
-  }
-  100% {
-    border: 1.5px solid blue;
-    color: #fff;
-  }
-}
-
 #nav {
   height: 50px;
   border-bottom: 1px solid blue;
-  background-color: lightgrey;
+  background-color: rgb(149, 144, 144);
 }
 .navWrapper {
   height: 50px;
@@ -64,25 +50,23 @@ li {
     background-color: #fff;
     width: 100%;
     animation-name: moveInFromTop;
-    animation-duration: .7s;
+    animation-duration: .5s;
     z-index: 10;
 }
 
-.mChange {
-  height: 100%;
-  border-radius: 10px;
-  border: 1.5px solid blues;
-  background-color: #fff;
-  animation-name: changeBackground;
-  animation-duration: 1s;
-}
-
 .navAnchor {
- color: inherit;
  height: 100%;
  font-size: 1.5rem;
  display: flex;
  align-items: center;
+}
+
+.onPage {
+  color: white;
+}
+
+.offPage {
+  color: blue;
 }
 
 @media screen and (max-width: 720px) {

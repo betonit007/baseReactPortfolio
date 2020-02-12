@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './PicScroller.css'
 
 const PicScroller = ({ pics }) => {
     
@@ -20,24 +21,17 @@ const PicScroller = ({ pics }) => {
         else { setPicPosition(0)};
     }
     
-    const toggleStyles = {
-      fontSize: '50px',
-      display: 'flex',
-      alignItems: 'center',
-      cursor: 'pointer',
-      opacity: '.4',
-    }
 
     return (
         <div className='scrollerContainer' style={{ display: 'flex', width: '100%', backgroundImage: `url(${pics[picPosition]})`, backgroundSize: `contain`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
           {/* to blur background - image filter: 'blur(6px)' */}
-          <div className="pointerLeft" style={{...toggleStyles, marginRight: 'auto'}} onClick={()=>togglePicDown()}>
+          <div className="pointerLeft" onClick={()=>togglePicDown()}>
             &#60;
           </div>
           <div className="center" > 
              
           </div>
-          <div className="pointerRight" style={toggleStyles} onClick={()=>togglePicUp()}>
+          <div className="pointerRight" onClick={()=>togglePicUp()}>
             &#62;
           </div>
         </div>

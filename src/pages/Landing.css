@@ -52,10 +52,8 @@ h1,
   z-index: 10;
 }
 
-a:link, a:visited {
-  text-decoration: none;
+.learn {
   color: blue;
-  cursor: pointer;
 }
 
 .myName {

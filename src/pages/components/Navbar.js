@@ -42,20 +42,20 @@ const Navbar = ({ inViewHigh, inViewLow }) => {
     <div className="navWrapper">
       <div id="nav" className={`${(!inViewHigh && inViewLow) ? 'fixedNavbar' : 'navRelative'}  `}>
         <ul className="linkContainer">
-          <li className={`${divView === 'landing' ? 'mChange' : ''} `}>
-            <HashLink className='navAnchor' smooth to="/#landing">Home</HashLink>
+          <li>
+            <HashLink className={`navAnchor ${divView === 'landing' ? 'onPage' : 'offPage'}`} smooth to="/#landing">Home</HashLink>
           </li>
-          <li className={`${divView === 'about' ? 'mChange' : ''} `}>
-            <HashLink  className='navAnchor' smooth to="/#about">About</HashLink>
+          <li>
+            <HashLink  className={`navAnchor ${divView === 'about' ? 'onPage' : 'offPage'} `} smooth to="/#about">About</HashLink>
           </li>
-          <li className={`${divView === 'portfolio' ? 'mChange' : ''} `}>
-            <HashLink  className='navAnchor' smooth to="/#portfolio">Projects</HashLink>
+          <li>
+            <HashLink  className={`navAnchor ${divView === 'portfolio' ? 'onPage' : 'offPage'} `} smooth to="/#portfolio">Projects</HashLink>
           </li>
-          <li className={`${divView === 'contact' ? 'mChange' : ''} `}>
-            <HashLink  className='navAnchor' smooth to="/#contact">Contact</HashLink>
+          <li>
+            <HashLink  className={`navAnchor ${divView === 'contact' ? 'onPage' : 'offPage'} `} smooth to="/#contact">Contact</HashLink>
           </li>
-          <li className={`${divView === 'extra' ? 'mChange' : ''} `}>
-            <HashLink  className='navAnchor' smooth to="/#extra">Extra</HashLink>
+          <li>
+            <HashLink  className={`navAnchor ${divView === 'extra' ? 'onPage' : 'offPage'} `} smooth to="/#extra">Extra</HashLink>
           </li>
         </ul>
         
