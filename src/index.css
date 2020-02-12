@@ -7,3 +7,6 @@
     font-family: 'Nunito', sans-serif;
 }
 
+:root {
+    --main-color: rgb(20, 77, 170);
+  }

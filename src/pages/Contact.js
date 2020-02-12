@@ -6,20 +6,21 @@ const ContactMe = () => {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
-        comments: ''
+        comments: '',
+        success: false
     })
 
     const onChange = e => setFormData({ ...formData, [e.target.name]: e.target.value })
 
     const { email, name, comments } = formData;
 
+    const [emailSuccess, setEmailSuccess] = useState(false);
+
     const onSubmit = async e => {
         e.preventDefault();
         if (name && email) {
-          sendEmail();
-          setFormData({name: '', email: '', comments: ''})
+            sendEmail();
         }
-
     }
 
     const sendEmail = async () => {
@@ -27,17 +28,24 @@ const ContactMe = () => {
             'gmail', 'portfolio',
             formData
         )
-
-        console.log(reply);
+        if (reply.status === 200) {
+            setEmailSuccess(true);
+            setFormData({ email: '', name: '', comments: '' })
+            setTimeout(() => { setEmailSuccess(false) }, 2900)
+        }
     }
 
     return (
         <div id='contact' style={{ height: '100vh' }}>
             <div className="contactContainer">
-                <h1 className="large text-primary">
+                <h1>
                     Contact Me
             </h1>
-
+                {emailSuccess &&
+                    <div className="sendSuccessContainer">
+                        <div className="sendSuccess">Email Sent!</div>
+                    </div>
+                }
                 <form className="form" onSubmit={onSubmit}>
 
                     <div className="form-group">
@@ -70,10 +78,6 @@ const ContactMe = () => {
                             required
                         />
                     </div>
-
-
-                    
-
                     <input type="submit" value="Submit" className='btn' />
                 </form>
             </div>

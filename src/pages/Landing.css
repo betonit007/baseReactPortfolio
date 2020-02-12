@@ -53,7 +53,7 @@ h1,
 }
 
 .learn {
-  color: blue;
+  color: var(--main-color);
 }
 
 .myName {

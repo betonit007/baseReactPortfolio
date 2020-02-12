@@ -59,7 +59,7 @@ img {
 }
 
 .learnMore {
-  color: rgb(70, 90, 189);
+  color: var(--main-color);
   border: 1px solid rgb(255, 0, 157);
   font-size: .5rem;
   font-weight: 200;
