@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Modal from '../Modal';
 import './ProjectCard.css'
 
-const ProjectCard = ({ item, item: { techs, deployedLink, githubUrl, imgUrl, imgName, projectName } }) => {
+const ProjectCard = ({ item, item: { techs, deployedLink, githubUrl, imgUrl, imgName, projectName, dark } }) => {
 
   const backGroundImage = require(`../../utils/imgs/${imgName}`)
 
@@ -34,6 +34,7 @@ const ProjectCard = ({ item, item: { techs, deployedLink, githubUrl, imgUrl, img
           setModal={setModal}
           imgName={imgName}
           item={item}
+          dark={dark ? true : false}
         />
       }
       <div className="projectInfo">

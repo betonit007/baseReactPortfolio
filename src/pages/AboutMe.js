@@ -16,7 +16,7 @@ const AboutMe = () => {
                     <h1 className='aboutMeHeader'>About Me</h1>
                     <h3 className='aboutMeSub'>I'm a web developer based in Morrisville, NC - the heart of The Research Triangle. I enjoy turning complex problems into simple, beautiful and intuitive designs. When I'm not coding, teaching or pushing pixels, you'll find me flying drones, 3d modeling or 'working' in the garage.</h3>
                     <div className="socialLinks">
-                        <SocialLinks />
+                        <SocialLinks fillColor='beige'/>
                     </div>
                 </div>
             </div>

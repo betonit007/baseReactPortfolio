@@ -1,4 +1,7 @@
-
+#about {
+    background-color: var(--main-color);
+    clip-path: polygon(65% 0, 100% 35%, 100% 100%, 35% 100%, 0 65%, 0 0);
+}
 
 .aboutMeContainer {
     height: 100%;
@@ -19,10 +22,12 @@
 
 .aboutMeHeader {
     font-weight: 600;
+    color: beige;
 }
 
 .aboutMeSub {
     font-weight: 300;
+    color: beige;
 }
 
 .bio {
@@ -64,6 +69,12 @@ img {
     }
     .aboutMeSub {
         margin: 0 10%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    #about {
+        clip-path: none;
     }
   }
 

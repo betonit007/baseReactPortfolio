@@ -5,16 +5,17 @@ import { ReactComponent as Twitter } from '../../utils/imgs/SVG/twitter.svg'
 import { ReactComponent as Github } from '../../utils/imgs/SVG/github.svg'
 import { ReactComponent as Facebook } from '../../utils/imgs/SVG/facebook.svg'
 import { ReactComponent as Instagram } from '../../utils/imgs/SVG/instagram.svg'
-import { ReactComponent as Resume } from '../../utils/imgs/SVG/resume.svg'
+import { ReactComponent as ResumeIcon } from '../../utils/imgs/SVG/resume.svg'
+import resume from '../../utils/resume.docx';
 
-const SocialLinks = () => {
+const SocialLinks = ({ fillColor }) => {
 
     const styles = {
         display: 'flex'
     }
 
     const socialStyle = {
-        fill: 'rgb(76, 73, 73)',
+        fill: fillColor,
         margin: '10px'
     }
 
@@ -38,8 +39,8 @@ const SocialLinks = () => {
             <a href="https://www.youtube.com/channel/UCoK0KHwtkBURRiftcH0mr-w" target="_blank" rel="noopener noreferrer">
                 <YouTube style={socialStyle} />
             </a>
-            <a href="../../utils/resume.docx" alt='resume' >
-                <Resume style={socialStyle} />
+            <a href={resume} alt='resume' target='_blank' rel="noopener noreferrer">
+                <ResumeIcon style={socialStyle} />
             </a>
         </div>
     )

@@ -3,72 +3,46 @@ import ReactDOM from 'react-dom';
 import PicScroller from './components/PicScroller';
 import './Modal.css';
 
-const Modal = ({ setModal, imgName, item }) => {
+const Modal = ({ setModal, imgName, item, dark }) => {
 
   const picsArray = item.scrollPics ? item.scrollPics.split(' ') : imgName.split(' ');
 
   const scrollImages = []
+
   picsArray.forEach(pic => {
     let img = require(`../utils/imgs/${pic}`)
     scrollImages.push(img)
   })
 
-  const modalContainer = {
-      backgroundColor: 'rgba(0, 0, 0, .7)',
-      position: 'fixed',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      top: 0,
-      right: 0,
-      width: '100%',
-      height: '100%'
-  }
-
-  const modalContent = {
-    height: '85%',
-    width: '50%',
-    display: 'flex',
-    flexDirection: 'column',
-    backgroundColor: 'white',
-    borderRadius: '5px',
-    marginTop: '50px'
-  }
-
-  const topModal = {
-    height: '100%',
-    display: 'flex',
-    jusifyContent: 'center'
-  }
-
-  const bottomModal = {
-    backgroundColor: 'grey',
-    height: '50%',
-    display: 'flex',
-    jusifyContent: 'center',
-    borderBottomLeftRadius: '5px',
-    borderBottomRightRadius: '5px'
-  }
-  
   const renderModal = () => {
     document.body.style.overflow = 'visible'
     setModal(false)
   }
-  
 
-    return ReactDOM.createPortal(
-        <div onClick={()=>renderModal(false)} style={modalContainer} className=''>
-            <div onClick={(e)=>e.stopPropagation()} style={modalContent}>
-                <div className='' style={topModal} >
-                  <PicScroller pics={scrollImages}/>
-                </div>
-                <div className='' style={bottomModal}>
-                  
-                </div>
-            </div>
-        </div>, document.querySelector('#modal')
 
-    );
+  return ReactDOM.createPortal(
+    <div onClick={() => renderModal(false)} className='modalContainer'>
+      <div className='modalContent' onClick={(e) => e.stopPropagation()} >
+        <div className='topModal'>
+          <div className={`close ${dark && 'dark'}`} onClick={() => renderModal(false)}>x</div>
+          <PicScroller pics={scrollImages} dark={dark} />
+        </div>
+        <section className='bottomModal'>
+          <header className='projectName'>{item.projectName}</header>
+          <div className="projectDescription">
+            {item.summary}
+          </div>
+          <div className="projectBrief">
+            {item.summary2}
+          </div>
+          <div className="viewApp">
+            <a className="gotoApp" href={item.deployedLink} target="_blank" rel="noopener noreferrer">VIEW APP &#10150;</a>
+          </div>
+        </section>
+      </div>
+    </div>, document.querySelector('#modal')
+
+  );
 }
 
 export default Modal;

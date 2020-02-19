@@ -20,7 +20,7 @@ const Portfolio = () => {
       
       <div className='portSlideContainer'>
         <div className={`${pFilter === 'A' ? 'allSlides' : 'otherSlides'} `}>
-          {allProjects.filter(p => p.Description.includes(pFilter)).slice(0, ).map((p, i) =>
+          {allProjects.filter(p => p.Description.includes(pFilter)).slice(0, 9).map((p, i) =>
             <ProjectCard
               key={i}
               item={p}

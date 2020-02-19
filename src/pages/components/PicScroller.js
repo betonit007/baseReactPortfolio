@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import './PicScroller.css'
 
-const PicScroller = ({ pics }) => {
-    
+const PicScroller = ({ pics, dark }) => {
+
     const [picPosition, setPicPosition] = useState(0)
 
     const togglePicUp = () => {
@@ -23,16 +23,16 @@ const PicScroller = ({ pics }) => {
     
 
     return (
-        <div className='scrollerContainer' style={{ display: 'flex', width: '100%', backgroundImage: `url(${pics[picPosition]})`, backgroundSize: `contain`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+        <div className='scrollerContainer' style={{ display: 'flex', width: '100%', background: `url(${pics[picPosition]}) no-repeat center center/cover`}}>
           {/* to blur background - image filter: 'blur(6px)' */}
-          <div className="pointerLeft" onClick={()=>togglePicDown()}>
-            &#60;
+          <div className='pointerLeftContainer'>
+            <div className={`pointerLeft ${dark && 'dark'}`} onClick={()=>togglePicDown()}>&#60;</div>
           </div>
           <div className="center" > 
              
           </div>
-          <div className="pointerRight" onClick={()=>togglePicUp()}>
-            &#62;
+          <div className='pointerRightContainer'>
+            <div className={`pointerRight  ${dark && 'dark'}`} onClick={()=>togglePicUp()}>&#62;</div>
           </div>
         </div>
     )

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './Contact.css'
+import { HashLink } from 'react-router-hash-link'
 
 
 const ContactMe = () => {
@@ -80,6 +81,9 @@ const ContactMe = () => {
                     </div>
                     <input type="submit" value="Submit" className='btn' />
                 </form>
+            </div>
+            <div className="homeLinkContainer">
+                <HashLink smooth to='/#landing'><div className="returnHome">&#187;</div></HashLink>
             </div>
         </div>
     )

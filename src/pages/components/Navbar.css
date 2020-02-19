@@ -1,18 +1,3 @@
-@keyframes moveInFromTop {
-    0% {
-      opacity: 0;
-      transform: translateY(-100px);
-    }
-
-    80% {
-      transform: translateY(7px);
-    }
-
-    100% {
-      opacity: 1;
-      transform: translate(0);
-    }
-}
 
 #nav {
   height: 50px;
@@ -56,7 +41,7 @@ li {
 
 .navAnchor {
  height: 100%;
- font-size: 1.5rem;
+ font-size: 2rem;
  display: flex;
  align-items: center;
 }
@@ -72,5 +57,21 @@ li {
 @media screen and (max-width: 720px) {
   .linkContainer {
   width: 100%;
+  }
+}
+
+@keyframes moveInFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+
+  80% {
+    transform: translateY(7px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
   }
 }

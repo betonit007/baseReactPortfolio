@@ -7,7 +7,10 @@
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/connectedCars.png?raw=true",
         "imgName": "cc1.jpg",
         "scrollPics": "cc5.jpg cc1.jpg cc2.jpg cc3.jpg cc6.jpg cc7.jpg cc8.jpg",
-        "Description": "A React Hooks Context Full-Stack Mongoose JWT Bcrypt"
+        "Description": "A React Hooks Context Full-Stack Mongoose JWT Bcrypt",
+        "summary": "The Ultimate Online Car Shopping Experience",
+        "summary2": "Connected Cars is the ultimate tool for small car dealerships. Display your entire inventory in moments with our simple to use interface. Search for vehicles by simply typing in the features you want. Save vehicles in your virtural garage.",
+        "alltechs": ["React", "React Hooks", "JWT WebToken", "BCrypt", "Cloudinary", "Express-Validator", "Mongoose"]
     },
     {
         "projectName": "Studdy Buddy",
@@ -17,7 +20,9 @@
         "imgName":"sb1.jpg",
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/studbud.jpg?raw=true",
         "scrollPics": "sb1.jpg sb2.jpg sb3.jpg sb4.jpg",
-        "Description": "A React Hooks Context Mongoose Full-Stack"
+        "Description": "A React Hooks Context Mongoose Full-Stack",
+        "summary": "Online Car Shopping Experience",
+        "summary2": "Connected Cars is the ultimate tool for small car dealerships. Display your entire inventory in moments with our simple to use interface. Search for vehicles by simply typing in the features you want. Save vehicles in your virtural garage."
     },
     {
         "projectName": "Google Books",
@@ -27,7 +32,9 @@
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/googlebooks.jpg?raw=true",
         "imgName": "gb1.jpg",
         "scrollPics":"gb1.jpg gb2.jpg gb3.jpg gb4.jpg",
-        "Description": "A React MongoDB Socketio"
+        "Description": "A React MongoDB Socketio",
+        "summary": "A React MongoDB Socketio",
+        "summary2": "Some text that gives a more indepth summary of the application. Things like how to use, more descriptive uses of techs, etc "
     },
     {
         "projectName": "Sky Scrapers",
@@ -37,7 +44,9 @@
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/nyj.jpg?raw=true",
         "imgName": "js1.jpg",
         "scrollPics": "js1.jpg js2.jpg js3.jpg js4.jpg",
-        "Description": "A jQuery Mysql Handlebars"
+        "Description": "A jQuery Mysql Handlebars",
+        "summary": "A jQuery Mysql Handlebars",
+        "summary2": "Some text that gives a more indepth summary of the application. Things like how to use, more descriptive uses of techs, etc "
     },
     {
         "projectName": "Fort-Click",
@@ -47,7 +56,9 @@
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/fortnight.jpg?raw=true",
         "imgName": "fn1.jpg",
         "scrollPics": "fn1.jpg fn2.jpg fn3.jpg",
-        "Description": "A React"
+        "Description": "A React",
+        "summary": "A React",
+        "summary2": "Some text that gives a more indepth summary of the application. Things like how to use, more descriptive uses of techs, etc "
     },
     {
         "projectName": "Fuel 4 Thought",
@@ -57,7 +68,9 @@
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/fuel2.jpg?raw=true",
         "imgName": "ft1.jpg",
         "scrollPics": "ft1.jpg ft2.jpg ft3.jpg ft4.jpg",
-        "Description": "A JQuery Handlebars Google-OCR"
+        "Description": "A JQuery Handlebars Google-OCR",
+        "summary": "A JQuery Handlebars Google-OCR",
+        "summary2": "Some text that gives a more indepth summary of the application. Things like how to use, more descriptive uses of techs, etc "
     },
     {
         "projectName": "Burger Time",
@@ -67,7 +80,9 @@
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/burger.jpg?raw=true",
         "imgName": "eb1.jpg",
         "scrollPics": "eb1.jpg",
-        "Description": "A mysql sequilize jquery handlebars"
+        "Description": "A mysql sequilize jquery handlebars",
+        "summary": "A mysql sequilize jquery handlebars",
+        "summary2": "Some text that gives a more indepth summary of the application. Things like how to use, more descriptive uses of techs, etc "
     },
     {
         "projectName": "Friend Finder",
@@ -77,7 +92,9 @@
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/finder.jpg?raw=true",
         "imgName": "ff1.jpg",
         "scrollPics":"ff1.jpg ff2.jpg ff3.jpg ff4.jpg",
-        "Description": "A Dating / MatchMaker App"
+        "Description": "A Dating / MatchMaker App",
+        "summary": "A Dating / MatchMaker App",
+        "summary2": "Some text that gives a more indepth summary of the application. Things like how to use, more descriptive uses of techs, etc "
     },
     {
         "projectName": "Battle of the BountyHunters",
@@ -87,6 +104,9 @@
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/bounty.jpg?raw=true",
         "imgName": "bh1.jpg",
         "scrollPics": "bh1.jpg bh2.jpg",
-        "Description": "A javascript"
+        "Description": "A javascript",
+        "summary" : "A javascript",
+        "summary2": "Some text that gives a more indepth summary of the application. Things like how to use, more descriptive uses of techs, etc ",
+        "dark": true
     }
 ]
