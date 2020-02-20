@@ -35,7 +35,7 @@ const Main = () => {
       <div id='lower'>
         <Portfolio />
         <Contact />
-        <Extra />
+        {/* <Extra /> */}
       </div>
     </>
   )

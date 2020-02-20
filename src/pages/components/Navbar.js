@@ -31,7 +31,7 @@ const Navbar = ({ inViewHigh, inViewLow }) => {
   useEffect(() => {
     // window.addEventListener('scroll', handleScroll);
     divWatch.observe(document.querySelector("#about"));
-    divWatch.observe(document.querySelector("#extra"));
+    //divWatch.observe(document.querySelector("#extra"));
     divWatch.observe(document.querySelector("#contact"));
     divWatch.observe(document.querySelector("#portfolio"));
     divWatch.observe(document.querySelector("#landing"));
@@ -54,9 +54,9 @@ const Navbar = ({ inViewHigh, inViewLow }) => {
           <li>
             <HashLink  className={`navAnchor ${divView === 'contact' ? 'onPage' : 'offPage'} `} smooth to="/#contact">Contact</HashLink>
           </li>
-          <li>
+          {/* <li>
             <HashLink  className={`navAnchor ${divView === 'extra' ? 'onPage' : 'offPage'} `} smooth to="/#extra">Extra</HashLink>
-          </li>
+          </li> */}
         </ul>
         
       </div>
