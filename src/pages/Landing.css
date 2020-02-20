@@ -18,7 +18,6 @@
   }
 }
 
-
 .raise {
   z-index: 10;
 }
@@ -41,20 +40,97 @@
     align-items: center;
 }
 
-h1,
-.learn,
-.hashLink-container,
-.heading-primary-sub,
-.myName {
+h1, .heading-primary-sub, .myName {
   text-align: center;
   font-size: 4rem;
   font-weight: 300;
   z-index: 10;
 }
 
+.myName {
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.hashLink-container {
+  height: 100px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.hashLink-container:hover {
+  transform-origin: center;
+  animation: rotateDown 1s;
+  transition-timing-function: linear;
+  transform: rotate(90deg)
+}
+
+.hashLink-container:not(hover) {
+  transform-origin: center;
+  animation: rotateUp 1s;
+  transition-timing-function: linear;
+  transform: rotate(0deg)
+}
+
+@keyframes rotateDown {
+  0% {
+    transform: rotate(0deg)
+  }
+  50% {
+    transform: rotate(100deg)
+  }
+  70% {
+  
+    transform: rotate(82deg)
+  }
+  80% {
+    transform: rotate(93deg)
+  }
+  90% {
+    transform: rotate(88deg)
+  }
+  100% {
+    transform: rotate(90deg)
+  }
+}
+
+@keyframes rotateUp {
+  0% {
+    transform: rotate(90deg)
+  }
+  50% {
+    transform: rotate(-10deg)
+  }
+  70% {
+  
+    transform: rotate(2deg)
+  }
+  80% {
+    transform: rotate(-3deg)
+  }
+  90% {
+    transform: rotate(2deg)
+  }
+  100% {
+    transform: rotate(0deg)
+  }
+}
+
+
 .learn {
   color: var(--main-color);
+  background-color: white;
+  border-radius: 5px;
+  font-size: 3rem;
+  padding: 0 5px;
+  border: 1px solid black;
+  flex: 0;
+  
 }
+
+
 
 .myName {
   color: #fff;
@@ -95,6 +171,7 @@ h1,
     background-size: cover;
     background-position: center;
 } 
+
 
 @media screen and (max-width: 600px) {
   .planeFlight {

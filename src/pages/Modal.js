@@ -24,7 +24,6 @@ const Modal = ({ setModal, imgName, item, dark }) => {
     <div onClick={() => renderModal(false)} className='modalContainer'>
       <div className='modalContent' onClick={(e) => e.stopPropagation()} >
         <div className='topModal'>
-          <div className={`close ${dark && 'dark'}`} onClick={() => renderModal(false)}>x</div>
           <PicScroller pics={scrollImages} dark={dark} />
         </div>
         <section className='bottomModal'>
@@ -37,6 +36,7 @@ const Modal = ({ setModal, imgName, item, dark }) => {
           </div>
           <div className="viewApp">
             <a className="gotoApp" href={item.deployedLink} target="_blank" rel="noopener noreferrer">VIEW APP &#10150;</a>
+            <div className='close' onClick={() => renderModal(false)}>x</div>
           </div>
         </section>
       </div>
