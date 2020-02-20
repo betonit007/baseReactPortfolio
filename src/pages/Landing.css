@@ -57,13 +57,13 @@ h1, .heading-primary-sub, .myName {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  cursor: pointer;
+ 
 }
 
 .hashLink-container:hover {
   transform-origin: center;
   animation: rotateDown 1s;
-  transition-timing-function: linear;
+  transition-timing-function: ease-in;
   transform: rotate(90deg)
 }
 
@@ -127,6 +127,7 @@ h1, .heading-primary-sub, .myName {
   padding: 0 5px;
   border: 1px solid black;
   flex: 0;
+  cursor: pointer;
   
 }
 
