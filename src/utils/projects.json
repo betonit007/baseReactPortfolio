@@ -44,7 +44,7 @@
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/nyj.jpg?raw=true",
         "imgName": "js1.jpg",
         "scrollPics": "js1.jpg js2.jpg js3.jpg js4.jpg",
-        "Description": "A jQuery Mysql Handlebars-js",
+        "Description": "A jquery express handlebars",
         "summary": "Techs: Express, MySQL, Handlebars-js, jQuery",
         "summary2": "Sky Scrappers keeps you up to date on all the current New York Jets news. You can comment on any articles or save them to your collection to view any time. Save the articles you want, delete the ones you don't!"
     },
@@ -68,7 +68,7 @@
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/fuel2.jpg?raw=true",
         "imgName": "ft1.jpg",
         "scrollPics": "ft1.jpg ft2.jpg ft3.jpg ft4.jpg",
-        "Description": "A JQuery Handlebars Google-OCR",
+        "Description": "A jquery express Handlebars Google-OCR",
         "summary": "Techs: Google OCR, Express, MySQL, Handlebars-js, Flexbox",
         "summary2": "Save and track all your gas expenses! No need for data-entry, just take picture, upload and your info will be saved with the help of the google-OCR API. Update or delete any entries. Spot trends and save $$$"
     },
@@ -80,7 +80,7 @@
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/burger.jpg?raw=true",
         "imgName": "eb1.jpg",
         "scrollPics": "eb1.jpg",
-        "Description": "A mysql sequilize jquery handlebars",
+        "Description": "A mysql sequilize jquery handlebars express",
         "summary": "Techs: MySQL-sequelize, Express, Handlebars.js, jQuery, Flexblox",
         "summary2": "A Node, Express, Handlebars, MySQL and Sequelize burger app that lets users input the names of burgers, pick a burger to eat, enter your name and then devour them! The app showcases \"sequelize joins\" by creating associations between the database tables: Customer and Burger."
     },
@@ -92,7 +92,7 @@
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/finder.jpg?raw=true",
         "imgName": "ff1.jpg",
         "scrollPics":"ff1.jpg ff2.jpg ff3.jpg ff4.jpg",
-        "Description": "A Dating / MatchMaker App",
+        "Description": "A jquery express",
         "summary": "Techs: Express, jQuery",
         "summary2": "Friend Finder is a matching making app that showcases express and path. It stores user input on server side to create a \"database\" of user profiles."
     },
@@ -120,6 +120,34 @@
         "Description": "A Node.js Shopping and Inventory Management App",
         "summary" : "Techs: Node.js, Inquirer, CLI-table",
         "summary2": "A Node.js Shopping and Inventory Management Application. As a customer, browse items and purchase. Two management modes that let you create new products, order more inventory and track inventory needs",
+        "dark": true
+    }
+    ,
+    {
+        "projectName": "Holy Node-js Batman!",
+        "githubUrl": "https://github.com/betonit007/node-word-guess",
+        "techs": "Node.js, Inquirer",
+        "deployedLink": "https://www.youtube.com/watch?v=PYZvjumZvaA",
+        "imgUrl": "",
+        "imgName": "batman1.jpg",
+        "scrollPics": "batman1.jpg batman2.jpg",
+        "Description": "A Node.js Word Guess Game",
+        "summary" : "Techs: Node.js, Inquirer",
+        "summary2": "Node Word Guess is a Batman themed, \"hang-man\" word guessing game that utilizes the NPM package exclamation to generate random Robin Sayings.",
+        "dark": true
+    }
+    ,
+    {
+        "projectName": "Liri-Bot",
+        "githubUrl": "https://github.com/betonit007/liri-node-app",
+        "techs": "Node.js, Inquirer, OMDB & Spotify API",
+        "deployedLink": "https://www.youtube.com/watch?v=9-W-4BuRocI&t=57s",
+        "imgUrl": "",
+        "imgName": "node.jpg",
+        "scrollPics": "node.jpg",
+        "Description": "A Node.js Siri clone",
+        "summary" : "Techs: Node.js, Spotify & OMDB API",
+        "summary2": "Liri-Bot is a Siri clone that lets you search to get all the latest info on all your entertainment choices",
         "dark": true
     }
 ]
