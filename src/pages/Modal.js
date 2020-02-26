@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import PicScroller from './components/PicScroller';
+import { ReactComponent as Github } from '../utils/imgs/SVG/github.svg'
 import './Modal.css';
 
 const Modal = ({ setModal, imgName, item, dark }) => {
@@ -36,6 +37,7 @@ const Modal = ({ setModal, imgName, item, dark }) => {
           </div>
           <div className="viewApp">
             <a className="gotoApp" href={item.deployedLink} target="_blank" rel="noopener noreferrer">VIEW APP &#10150;</a>
+            <a className="gotoGithub" href={item.githubUrl} target="_blank" rel="noopener noreferrer"><Github/></a>
             <div className='close' onClick={() => renderModal(false)}>x</div>
           </div>
         </section>

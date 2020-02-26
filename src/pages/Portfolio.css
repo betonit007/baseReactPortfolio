@@ -44,20 +44,27 @@
 
 
 .allSlides {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
 }
 
 .otherSlides {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
-  height: 100%;
   justify-content: center;
-  background-color: orange;
-  
 }
+
+/* .otherSlides {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+} */
 
 .selected {
   color: white;
@@ -73,17 +80,18 @@
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .portMenu {
-    display: none;
+    font-size: 1rem;
   }
   .portSlideContainer {
     height: 100%;
   }
   .allSlides {
-    border: none;
-    background-color: #fff;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
   }
+
 }
 
 

@@ -8,7 +8,7 @@
         "imgName": "cc1.jpg",
         "scrollPics": "cc5.jpg cc1.jpg cc2.jpg cc3.jpg cc6.jpg cc7.jpg cc8.jpg",
         "Description": "A React Hooks Context Full-Stack Mongoose JWT Bcrypt",
-        "summary": "The Ultimate Online Car Shopping Experience",
+        "summary": "Techs: MERN Stack, Context API, JWT, Bcrypt, Cloudinary, Tailwind CSS",
         "summary2": "Connected Cars is the ultimate tool for small car dealerships. Display your entire inventory in moments with our simple to use interface. Search for vehicles by simply typing in the features you want. Save vehicles in your virtural garage.",
         "alltechs": ["React", "React Hooks", "JWT WebToken", "BCrypt", "Cloudinary", "Express-Validator", "Mongoose"]
     },
@@ -21,8 +21,8 @@
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/studbud.jpg?raw=true",
         "scrollPics": "sb1.jpg sb2.jpg sb3.jpg sb4.jpg",
         "Description": "A React Hooks Context Mongoose Full-Stack",
-        "summary": "Online Car Shopping Experience",
-        "summary2": "Connected Cars is the ultimate tool for small car dealerships. Display your entire inventory in moments with our simple to use interface. Search for vehicles by simply typing in the features you want. Save vehicles in your virtural garage."
+        "summary": "Techs: MERN Stack, Context API",
+        "summary2": "Study Buddy is a learning / memorizing aid application that allows user to setup and save customizable quizes. The application provides feeback on the user's progress and areas of opportunity."
     },
     {
         "projectName": "Google Books",
@@ -33,8 +33,8 @@
         "imgName": "gb1.jpg",
         "scrollPics":"gb1.jpg gb2.jpg gb3.jpg gb4.jpg",
         "Description": "A React MongoDB Socketio",
-        "summary": "A React MongoDB Socketio",
-        "summary2": "Some text that gives a more indepth summary of the application. Things like how to use, more descriptive uses of techs, etc "
+        "summary": "Techs: MERN Stack, Mongoose, Socket.IO",
+        "summary2": "Google Books allows users to browse and purchase all books that are available on the google-books api. When saving a book to your collection, all logged in users are notified via Socket-IO."
     },
     {
         "projectName": "Sky Scrapers",
@@ -44,9 +44,9 @@
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/nyj.jpg?raw=true",
         "imgName": "js1.jpg",
         "scrollPics": "js1.jpg js2.jpg js3.jpg js4.jpg",
-        "Description": "A jQuery Mysql Handlebars",
-        "summary": "A jQuery Mysql Handlebars",
-        "summary2": "Some text that gives a more indepth summary of the application. Things like how to use, more descriptive uses of techs, etc "
+        "Description": "A jQuery Mysql Handlebars-js",
+        "summary": "Techs: Express, MySQL, Handlebars-js, jQuery",
+        "summary2": "Sky Scrappers keeps you up to date on all the current New York Jets news. You can comment on any articles or save them to your collection to view any time. Save the articles you want, delete the ones you don't!"
     },
     {
         "projectName": "Fort-Click",
@@ -57,8 +57,8 @@
         "imgName": "fn1.jpg",
         "scrollPics": "fn1.jpg fn2.jpg fn3.jpg",
         "Description": "A React",
-        "summary": "A React",
-        "summary2": "Some text that gives a more indepth summary of the application. Things like how to use, more descriptive uses of techs, etc "
+        "summary": "Techs: React, CSS Grid",
+        "summary2": "A FortNite themed memorization game. Choose all characters but only once to get a Victory-Royale! Will you be flossing or taking the \"L\""
     },
     {
         "projectName": "Fuel 4 Thought",
@@ -69,8 +69,8 @@
         "imgName": "ft1.jpg",
         "scrollPics": "ft1.jpg ft2.jpg ft3.jpg ft4.jpg",
         "Description": "A JQuery Handlebars Google-OCR",
-        "summary": "A JQuery Handlebars Google-OCR",
-        "summary2": "Some text that gives a more indepth summary of the application. Things like how to use, more descriptive uses of techs, etc "
+        "summary": "Techs: Google OCR, Express, MySQL, Handlebars-js, Flexbox",
+        "summary2": "Save and track all your gas expenses! No need for data-entry, just take picture, upload and your info will be saved with the help of the google-OCR API. Update or delete any entries. Spot trends and save $$$"
     },
     {
         "projectName": "Burger Time",
@@ -81,8 +81,8 @@
         "imgName": "eb1.jpg",
         "scrollPics": "eb1.jpg",
         "Description": "A mysql sequilize jquery handlebars",
-        "summary": "A mysql sequilize jquery handlebars",
-        "summary2": "Some text that gives a more indepth summary of the application. Things like how to use, more descriptive uses of techs, etc "
+        "summary": "Techs: MySQL-sequelize, Express, Handlebars.js, jQuery, Flexblox",
+        "summary2": "A Node, Express, Handlebars, MySQL and Sequelize burger app that lets users input the names of burgers, pick a burger to eat, enter your name and then devour them! The app showcases \"sequelize joins\" by creating associations between the database tables: Customer and Burger."
     },
     {
         "projectName": "Friend Finder",
@@ -93,8 +93,8 @@
         "imgName": "ff1.jpg",
         "scrollPics":"ff1.jpg ff2.jpg ff3.jpg ff4.jpg",
         "Description": "A Dating / MatchMaker App",
-        "summary": "A Dating / MatchMaker App",
-        "summary2": "Some text that gives a more indepth summary of the application. Things like how to use, more descriptive uses of techs, etc "
+        "summary": "Techs: Express, jQuery",
+        "summary2": "Friend Finder is a matching making app that showcases express and path. It stores user input on server side to create a \"database\" of user profiles."
     },
     {
         "projectName": "Battle of the BountyHunters",
@@ -105,8 +105,21 @@
         "imgName": "bh1.jpg",
         "scrollPics": "bh1.jpg bh2.jpg",
         "Description": "A javascript",
-        "summary" : "A javascript",
-        "summary2": "Some text that gives a more indepth summary of the application. Things like how to use, more descriptive uses of techs, etc ",
+        "summary" : "Techs: Javascript, CSS",
+        "summary2": "Is a Star Wars themed \"Role-playing\" game in which the user can pick among four different characters and have them battle eachother. The User's player which gain \"experience\" as the game advances. Additionally, there is a random attack bonus for both the player and computer player.",
+        "dark": true
+    },
+    {
+        "projectName": "Bamazon",
+        "githubUrl": "https://github.com/betonit007/Bamazon",
+        "techs": "Node.js, Inquirer, CLI-table2",
+        "deployedLink": "https://www.youtube.com/watch?v=z-NVp9oV0fs&t=11s",
+        "imgUrl": "",
+        "imgName": "bamazon2.jpg",
+        "scrollPics": "bamazon2.jpg bamazon1.jpg",
+        "Description": "A Node.js Shopping and Inventory Management App",
+        "summary" : "Techs: Node.js, Inquirer, CLI-table",
+        "summary2": "A Node.js Shopping and Inventory Management Application. As a customer, browse items and purchase. Two management modes that let you create new products, order more inventory and track inventory needs",
         "dark": true
     }
 ]

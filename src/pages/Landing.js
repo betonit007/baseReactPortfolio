@@ -18,7 +18,7 @@ const AboutMe = ({ setinViewLow }) => {
       
       <div className='hashLink-container'>
         <HashLink className="learn" onClick={setinViewLow(true)} smooth to="/#about">
-          Click Here &#10139;
+          Click Here <div className='arrow'> &#10139;</div>
         </HashLink>
       </div>
     </div>
