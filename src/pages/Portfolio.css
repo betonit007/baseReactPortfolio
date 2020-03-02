@@ -84,14 +84,11 @@
   .portMenu {
     font-size: 1rem;
   }
-  .portSlideContainer {
-    height: 100%;
-  }
+  
   .allSlides {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
   }
-
 }
 
 

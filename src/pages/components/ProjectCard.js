@@ -10,7 +10,7 @@ const ProjectCard = ({ item, item: { techs, deployedLink, githubUrl, imgUrl, img
     // backgroundImage: `linear-gradient( to bottom, rgba(185, 224, 240, 0.801), rgba(67, 139, 247, 0.801)),url(${cloud})`, will work for imported images
     backgroundImage: `url(${backGroundImage})`,
     backgroundSize: 'cover',
-    backgroundosition: "center"
+    backgroundPosition: "center"
   };
 
   const [testBool, setTestBool] = useState(false);
