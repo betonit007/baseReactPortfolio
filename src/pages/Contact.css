@@ -64,7 +64,7 @@ input[type='text'],
     font-size: 3rem;
     width: 200px;
     height: 100px;
-    border: 1px solid red;
+    border: 1px solid rgba(255, 0, 0, 0.493);
     padding: 0;
     animation-name: flyInOutHorizontal;
     animation-duration: 3s;
@@ -76,7 +76,7 @@ input[type='text'],
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.493);;
     padding-bottom: 20px;
     clip-path: polygon(50% 45%, 100% 0%, 100% 100%, 0 100%, 0 0%);
 }

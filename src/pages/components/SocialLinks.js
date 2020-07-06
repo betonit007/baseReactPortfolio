@@ -6,7 +6,7 @@ import { ReactComponent as Github } from '../../utils/imgs/SVG/github.svg'
 import { ReactComponent as Facebook } from '../../utils/imgs/SVG/facebook.svg'
 import { ReactComponent as Instagram } from '../../utils/imgs/SVG/instagram.svg'
 import { ReactComponent as ResumeIcon } from '../../utils/imgs/SVG/resume.svg'
-import resume from '../../utils/resume.docx';
+import resume from '../../utils/resumePDF.pdf';
 
 const SocialLinks = ({ fillColor }) => {
 

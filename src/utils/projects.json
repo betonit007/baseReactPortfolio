@@ -1,4 +1,16 @@
-[
+[   {
+        "projectName": "Fuel Vision",
+        "githubUrl": "https://github.com/betonit007/gastracker",
+        "deployedLink": "https://fuelvision.herokuapp.com",
+        "techs": "Google Vision, MERN Stack",
+        "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/connectedCars.png?raw=true",
+        "imgName": "gs1.jpg",
+        "scrollPics": "gs1.jpg gs2.jpg gs3.jpg gs4.jpg",
+        "Description": "A Google Vision React Hooks Context Full-Stack Mongoose JWT Bcrypt",
+        "summary": "Techs: Google Vision OCR, MERN Stack, Context API, JWT, Bcrypt",
+        "summary2": "A mobile app that utilizes Google Vision or OCR - Optical Character Recognition to detect and extract text from images. Log in / Register and record all your gas expenses with one press!",
+    "alltechs": ["Google Vision", "React", "React Hooks", "JWT WebToken", "BCrypt", "Mongoose"]
+    },
     {
         "projectName": "Connected Cars",
         "githubUrl": "https://github.com/betonit007/connectedCars",
@@ -11,6 +23,19 @@
         "summary": "Techs: MERN Stack, Context API, JWT, Bcrypt, Cloudinary, Tailwind CSS",
         "summary2": "Connected Cars is the ultimate tool for small car dealerships. Display your entire inventory in moments with our simple to use interface. Search for vehicles by simply typing in the features you want. Save vehicles in your virtural garage.",
         "alltechs": ["React", "React Hooks", "JWT WebToken", "BCrypt", "Cloudinary", "Express-Validator", "Mongoose"]
+    },
+    {
+        "projectName": "In3d",
+        "githubUrl": "https://github.com/betonit007/In3d-Version-2.0",
+        "deployedLink": "https://in3d.herokuapp.com/",
+        "techs": "MERN Stack",
+        "imgUrl": "",
+        "imgName": "in3d1.png",
+        "scrollPics": "in3d1.png in3d2.png",
+        "Description": "A React Hooks Context Full-Stack Mongoose JWT Bcrypt",
+        "summary": "Techs: MERN Stack, Redux, JWT, Bcrypt, SCSS",
+        "summary2": "A social application that allows 3d modeling enthusiasts to meet, share ideas or just chat. Members can post ideas to a forum and other members can comment and like. In3d uses the Thingiverse.com API to access project repos and displays the 5 most recent projects ",
+        "alltechs": ["React", "Redux", "JWT WebToken", "BCrypt", "Express-Validator", "Mongoose"]
     },
     {
         "projectName": "Studdy Buddy",
@@ -72,18 +97,7 @@
         "summary": "Techs: Google OCR, Express, MySQL, Handlebars-js, Flexbox",
         "summary2": "Save and track all your gas expenses! No need for data-entry, just take picture, upload and your info will be saved with the help of the google-OCR API. Update or delete any entries. Spot trends and save $$$"
     },
-    {
-        "projectName": "Burger Time",
-        "githubUrl": "https://github.com/betonit007/sequelizedBurger",
-        "deployedLink": "https://pacific-hollows-84060.herokuapp.com/",
-        "techs": "MySQL / Handle-bars",
-        "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/burger.jpg?raw=true",
-        "imgName": "eb1.jpg",
-        "scrollPics": "eb1.jpg",
-        "Description": "A mysql sequilize jquery handlebars express",
-        "summary": "Techs: MySQL-sequelize, Express, Handlebars.js, jQuery, Flexblox",
-        "summary2": "A Node, Express, Handlebars, MySQL and Sequelize burger app that lets users input the names of burgers, pick a burger to eat, enter your name and then devour them! The app showcases \"sequelize joins\" by creating associations between the database tables: Customer and Burger."
-    },
+    
     {
         "projectName": "Friend Finder",
         "githubUrl": "https://github.com/betonit007/friend_finder",
@@ -108,6 +122,18 @@
         "summary" : "Techs: Javascript, CSS",
         "summary2": "Is a Star Wars themed \"Role-playing\" game in which the user can pick among four different characters and have them battle eachother. The User's player which gain \"experience\" as the game advances. Additionally, there is a random attack bonus for both the player and opponent.",
         "dark": true
+    },
+    {
+        "projectName": "Burger Time",
+        "githubUrl": "https://github.com/betonit007/sequelizedBurger",
+        "deployedLink": "https://pacific-hollows-84060.herokuapp.com/",
+        "techs": "MySQL / Handle-bars",
+        "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/burger.jpg?raw=true",
+        "imgName": "eb1.jpg",
+        "scrollPics": "eb1.jpg",
+        "Description": "A mysql sequilize jquery handlebars express",
+        "summary": "Techs: MySQL-sequelize, Express, Handlebars.js, jQuery, Flexblox",
+        "summary2": "A Node, Express, Handlebars, MySQL and Sequelize burger app that lets users input the names of burgers, pick a burger to eat, enter your name and then devour them! The app showcases \"sequelize joins\" by creating associations between the database tables: Customer and Burger."
     },
     {
         "projectName": "Bamazon",

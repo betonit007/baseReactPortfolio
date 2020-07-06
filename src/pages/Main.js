@@ -4,7 +4,7 @@ import AboutMe from './AboutMe'
 import Navbar from './components/Navbar';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
-import Extra from './Extra';
+// import Extra from './Extra';
 
 const Main = () => {
 
