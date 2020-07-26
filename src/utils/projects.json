@@ -1,4 +1,31 @@
-[   {
+[   
+    {
+        "projectName": "Drone Tracker",
+        "githubUrl": "https://github.com/betonit007/drone-tracker",
+        "deployedLink": "https://drone-tracker-41.web.app/",
+        "techs": "Firebase & React",
+        "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/connectedCars.png?raw=true",
+        "imgName": "fc1.png",
+        "scrollPics": "fc1.png fc2.png fc3.png",
+        "Description": "A state of the art chat app that utilizes React and Google's firebase for storage and authentication.",
+        "summary": "Techs: React, Firebase Storage, Authentication and Database",
+        "summary2": "A mobile chat app that utilizes React and firebase. Sign in with your google account or create your own credentials to start chatting!",
+    "alltechs": [ "Google Firebase", "React", "Firebase", "Firebase Authentication", "Firebase Database", "Firebase Storage" ]
+    },
+    {
+        "projectName": "Fire Chat",
+        "githubUrl": "https://github.com/betonit007/firechat",
+        "deployedLink": "https://fire-chat-app.herokuapp.com/",
+        "techs": "Firebase & React",
+        "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/connectedCars.png?raw=true",
+        "imgName": "fc1.png",
+        "scrollPics": "fc1.png fc2.png fc3.png",
+        "Description": "A state of the art chat app that utilizes React and Google's firebase for storage and authentication.",
+        "summary": "Techs: React, Firebase Storage, Firebase Authentication",
+        "summary2": "A mobile chat app that utilizes React and firebase. Sign in with your google account or create your own credentials to start chatting!",
+    "alltechs": [ "Google Firebase", "React", "Firebase", "Firebase Authentication" ]
+    },
+    {
         "projectName": "Fuel Vision",
         "githubUrl": "https://github.com/betonit007/gastracker",
         "deployedLink": "https://fuelvision.herokuapp.com",
@@ -85,18 +112,7 @@
         "summary": "Techs: React, CSS Grid",
         "summary2": "A FortNite themed memorization game. Choose all characters but only once to get a Victory-Royale! Will you be flossing or taking the \"L\""
     },
-    {
-        "projectName": "Fuel 4 Thought",
-        "githubUrl": "https://github.com/betonit007/fuelOCR",
-        "techs": "Google-OCR / Sequilize",
-        "deployedLink": "https://whispering-mesa-87259.herokuapp.com/",
-        "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/fuel2.jpg?raw=true",
-        "imgName": "ft1.jpg",
-        "scrollPics": "ft1.jpg ft2.jpg ft3.jpg ft4.jpg",
-        "Description": "A jquery express Handlebars Google-OCR",
-        "summary": "Techs: Google OCR, Express, MySQL, Handlebars-js, Flexbox",
-        "summary2": "Save and track all your gas expenses! No need for data-entry, just take picture, upload and your info will be saved with the help of the google-OCR API. Update or delete any entries. Spot trends and save $$$"
-    },
+    
     
     {
         "projectName": "Friend Finder",
@@ -122,6 +138,18 @@
         "summary" : "Techs: Javascript, CSS",
         "summary2": "Is a Star Wars themed \"Role-playing\" game in which the user can pick among four different characters and have them battle eachother. The User's player which gain \"experience\" as the game advances. Additionally, there is a random attack bonus for both the player and opponent.",
         "dark": true
+    },
+    {
+        "projectName": "Fuel 4 Thought",
+        "githubUrl": "https://github.com/betonit007/fuelOCR",
+        "techs": "Google-OCR / Sequilize",
+        "deployedLink": "https://whispering-mesa-87259.herokuapp.com/",
+        "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/fuel2.jpg?raw=true",
+        "imgName": "ft1.jpg",
+        "scrollPics": "ft1.jpg ft2.jpg ft3.jpg ft4.jpg",
+        "Description": "A jquery express Handlebars Google-OCR",
+        "summary": "Techs: Google OCR, Express, MySQL, Handlebars-js, Flexbox",
+        "summary2": "Save and track all your gas expenses! No need for data-entry, just take picture, upload and your info will be saved with the help of the google-OCR API. Update or delete any entries. Spot trends and save $$$"
     },
     {
         "projectName": "Burger Time",
