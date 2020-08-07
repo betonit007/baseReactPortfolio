@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import Modal from '../Modal';
+
 import './ProjectCard.css'
 
-const ProjectCard = ({ item, item: { techs, deployedLink, githubUrl, imgUrl, imgName, projectName, dark } }) => {
-
+const ProjectCard = ({ item, item: { techs, imgName, projectName, dark } }) => {
+  
   const backGroundImage = require(`../../utils/imgs/${imgName}`)
 
   const styles = {
@@ -13,12 +14,8 @@ const ProjectCard = ({ item, item: { techs, deployedLink, githubUrl, imgUrl, img
     backgroundPosition: "center top"
   };
 
-  const [testBool, setTestBool] = useState(false);
-  const [displayModal, setModal] = useState(false);
 
-  const changeBoolState = () => {
-    setTestBool(!testBool);
-  }
+  const [displayModal, setModal] = useState(false);
 
   const renderModal = (item) => {
     document.body.style.overflow = 'hidden'
@@ -26,8 +23,7 @@ const ProjectCard = ({ item, item: { techs, deployedLink, githubUrl, imgUrl, img
   }
   return (
 
-
-    <div style={styles} className="pCard" onMouseLeave={() => changeBoolState()} onMouseEnter={() => changeBoolState()} >
+    <div style={styles} className="pCard" >
       {displayModal &&
         <Modal
           displayModal={displayModal}
@@ -43,7 +39,6 @@ const ProjectCard = ({ item, item: { techs, deployedLink, githubUrl, imgUrl, img
         <div className="learnMore" onClick={() => renderModal(item)}>Learn More</div>
       </div>
     </div>
-
   )
 }
 

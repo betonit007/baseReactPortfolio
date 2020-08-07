@@ -56,14 +56,14 @@ h1, .heading-primary-sub, .myName {
   display: flex;
   flex-direction: column;
   justify-content: center;
- 
+  
 }
 
 .hashLink-container:hover .arrow {
   transform-origin: center;
   animation: rotateDown 1s;
   transition-timing-function: ease-in;
-  transform: rotate(90deg)
+  transform: rotate(90deg);
 }
 
 .hashLink-container:not(hover) .arrow {
@@ -128,7 +128,7 @@ h1, .heading-primary-sub, .myName {
   border: 1px solid black;
   flex: 0;
   cursor: pointer;
-  
+  overflow: hidden;
 }
 
 .arrow {

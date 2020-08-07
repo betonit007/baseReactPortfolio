@@ -1,8 +1,7 @@
 .pCard {
   position: relative;
-  border-radius: 5px;
-  margin: 1rem;
-  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
 }
 
 /* .pCard:last-child {
@@ -83,6 +82,15 @@ img {
 .techs {
   text-align: center;
 }
+
+@keyframes fadeIn { 
+  0% { 
+      transform: scale(.50); 
+  } 
+  100% { 
+    transform: scale(1); 
+  } 
+} 
 
 
 @keyframes fadeInProjectInfo {

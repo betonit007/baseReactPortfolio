@@ -5,6 +5,7 @@
     text-decoration: none;
     font-size: 62.5%;
     font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
 }
 
 :root {

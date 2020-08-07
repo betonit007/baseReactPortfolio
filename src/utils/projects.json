@@ -1,16 +1,58 @@
-[   
+[
+    {
+        "projectName": "Mars Explorer",
+        "githubUrl": "https://github.com/betonit007/Mars-Rover",
+        "deployedLink": "https://betonit007.github.io/Mars-Rover",
+        "techs": "Javascript",
+        "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/connectedCars.png?raw=true",
+        "imgName": "me1.png",
+        "scrollPics": "me1.png me2.png me3.png",
+        "Description": "A javascript",
+        "summary": "Techs: Modern HTML5, CSS3 and Javascript",
+        "summary2": "Explore Mars in one of three actual NASA Mars Rover. Powered by NASA's powerful API, you can access all of the latest pictures taken by the Rovers: Curiosity, Spirit, and Opportunity. Save your favorites!",
+        "alltechs": [
+            "Javascipt",
+            "HTML",
+            "CSS3"
+        ]
+    },
+    {
+        "projectName": "80's Watch Calculator",
+        "githubUrl": "https://github.com/betonit007/js-calculator",
+        "deployedLink": "https://betonit007.github.io/js-calculator/index.html",
+        "techs": "Javascript",
+        "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/connectedCars.png?raw=true",
+        "imgName": "jw1.png",
+        "scrollPics": "jw1.png jw2.png jw3.png",
+        "Description": "A javascript",
+        "summary": "Techs: Modern HTML5, CSS3 and Javascript",
+        "summary2": "Strap on your favorite high-tech watch and add, subtract, divide or multiple to your heart's content!",
+        "alltechs": [
+            "Javascipt",
+            "HTML",
+            "CSS3"
+        ]
+    },
     {
         "projectName": "Drone Tracker",
         "githubUrl": "https://github.com/betonit007/drone-tracker",
         "deployedLink": "https://drone-tracker-41.web.app/",
         "techs": "Firebase & React",
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/connectedCars.png?raw=true",
-        "imgName": "fc1.png",
-        "scrollPics": "fc1.png fc2.png fc3.png",
-        "Description": "A state of the art chat app that utilizes React and Google's firebase for storage and authentication.",
-        "summary": "Techs: React, Firebase Storage, Authentication and Database",
-        "summary2": "A mobile chat app that utilizes React and firebase. Sign in with your google account or create your own credentials to start chatting!",
-    "alltechs": [ "Google Firebase", "React", "Firebase", "Firebase Authentication", "Firebase Database", "Firebase Storage" ]
+        "imgName": "dt1.png",
+        "scrollPics": "dt2.png dt1.png dt3.png dt4.png",
+        "Description": "A state of the art chat app that utilizes React and Google's firebase, maps, authentication and places API.",
+        "summary": "Techs: React, Firebase Firestore, Authentication, Places and Maps API",
+        "summary2": "A mobile app that utilizes React and Google Firebase and Maps. Sign in with your google account or create your own credentials to start tracking downed drones across the world!",
+        "alltechs": [
+            "Google Firebase",
+            "React",
+            "Firebase",
+            "Firebase Authentication",
+            "Firebase Database",
+            "Firebase Storage",
+            "Google Maps"
+        ]
     },
     {
         "projectName": "Fire Chat",
@@ -23,7 +65,12 @@
         "Description": "A state of the art chat app that utilizes React and Google's firebase for storage and authentication.",
         "summary": "Techs: React, Firebase Storage, Firebase Authentication",
         "summary2": "A mobile chat app that utilizes React and firebase. Sign in with your google account or create your own credentials to start chatting!",
-    "alltechs": [ "Google Firebase", "React", "Firebase", "Firebase Authentication" ]
+        "alltechs": [
+            "Google Firebase",
+            "React",
+            "Firebase",
+            "Firebase Authentication"
+        ]
     },
     {
         "projectName": "Fuel Vision",
@@ -36,7 +83,14 @@
         "Description": "A Google Vision React Hooks Context Full-Stack Mongoose JWT Bcrypt",
         "summary": "Techs: Google Vision OCR, MERN Stack, Context API, JWT, Bcrypt",
         "summary2": "A mobile app that utilizes Google Vision or OCR - Optical Character Recognition to detect and extract text from images. Log in / Register and record all your gas expenses with one press!",
-    "alltechs": ["Google Vision", "React", "React Hooks", "JWT WebToken", "BCrypt", "Mongoose"]
+        "alltechs": [
+            "Google Vision",
+            "React",
+            "React Hooks",
+            "JWT WebToken",
+            "BCrypt",
+            "Mongoose"
+        ]
     },
     {
         "projectName": "Connected Cars",
@@ -49,7 +103,15 @@
         "Description": "A React Hooks Context Full-Stack Mongoose JWT Bcrypt",
         "summary": "Techs: MERN Stack, Context API, JWT, Bcrypt, Cloudinary, Tailwind CSS",
         "summary2": "Connected Cars is the ultimate tool for small car dealerships. Display your entire inventory in moments with our simple to use interface. Search for vehicles by simply typing in the features you want. Save vehicles in your virtural garage.",
-        "alltechs": ["React", "React Hooks", "JWT WebToken", "BCrypt", "Cloudinary", "Express-Validator", "Mongoose"]
+        "alltechs": [
+            "React",
+            "React Hooks",
+            "JWT WebToken",
+            "BCrypt",
+            "Cloudinary",
+            "Express-Validator",
+            "Mongoose"
+        ]
     },
     {
         "projectName": "In3d",
@@ -62,14 +124,21 @@
         "Description": "A React Hooks Context Full-Stack Mongoose JWT Bcrypt",
         "summary": "Techs: MERN Stack, Redux, JWT, Bcrypt, SCSS",
         "summary2": "A social application that allows 3d modeling enthusiasts to meet, share ideas or just chat. Members can post ideas to a forum and other members can comment and like. In3d uses the Thingiverse.com API to access project repos and displays the 5 most recent projects ",
-        "alltechs": ["React", "Redux", "JWT WebToken", "BCrypt", "Express-Validator", "Mongoose"]
+        "alltechs": [
+            "React",
+            "Redux",
+            "JWT WebToken",
+            "BCrypt",
+            "Express-Validator",
+            "Mongoose"
+        ]
     },
     {
         "projectName": "Studdy Buddy",
         "githubUrl": "https://github.com/betonit007/finalStudyBuddy",
         "techs": "MERN Stack",
         "deployedLink": "https://studybuddyunc.herokuapp.com/",
-        "imgName":"sb1.jpg",
+        "imgName": "sb1.jpg",
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/studbud.jpg?raw=true",
         "scrollPics": "sb1.jpg sb2.jpg sb3.jpg sb4.jpg",
         "Description": "A React Hooks Context Mongoose Full-Stack",
@@ -83,7 +152,7 @@
         "deployedLink": "https://infinite-island-90078.herokuapp.com/",
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/googlebooks.jpg?raw=true",
         "imgName": "gb1.jpg",
-        "scrollPics":"gb1.jpg gb2.jpg gb3.jpg gb4.jpg",
+        "scrollPics": "gb1.jpg gb2.jpg gb3.jpg gb4.jpg",
         "Description": "A React MongoDB Socketio",
         "summary": "Techs: MERN Stack, Mongoose, Socket.IO",
         "summary2": "Google Books allows users to browse and purchase all books that are available on the google-books api. When saving a book to your collection, all logged in users are notified via Socket-IO."
@@ -112,8 +181,6 @@
         "summary": "Techs: React, CSS Grid",
         "summary2": "A FortNite themed memorization game. Choose all characters but only once to get a Victory-Royale! Will you be flossing or taking the \"L\""
     },
-    
-    
     {
         "projectName": "Friend Finder",
         "githubUrl": "https://github.com/betonit007/friend_finder",
@@ -121,7 +188,7 @@
         "deployedLink": "https://hidden-ocean-70955.herokuapp.com/",
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/finder.jpg?raw=true",
         "imgName": "ff1.jpg",
-        "scrollPics":"ff1.jpg ff2.jpg ff3.jpg ff4.jpg",
+        "scrollPics": "ff1.jpg ff2.jpg ff3.jpg ff4.jpg",
         "Description": "A jquery express",
         "summary": "Techs: Express, jQuery",
         "summary2": "Friend Finder is a matching making app that showcases express and path. It stores user input on server side to create a \"database\" of user profiles."
@@ -135,7 +202,7 @@
         "imgName": "bh1.jpg",
         "scrollPics": "bh1.jpg bh2.jpg",
         "Description": "A javascript",
-        "summary" : "Techs: Javascript, CSS",
+        "summary": "Techs: Javascript, CSS",
         "summary2": "Is a Star Wars themed \"Role-playing\" game in which the user can pick among four different characters and have them battle eachother. The User's player which gain \"experience\" as the game advances. Additionally, there is a random attack bonus for both the player and opponent.",
         "dark": true
     },
@@ -172,11 +239,10 @@
         "imgName": "bamazon2.jpg",
         "scrollPics": "bamazon2.jpg bamazon1.jpg",
         "Description": "A Node.js Shopping and Inventory Management App",
-        "summary" : "Techs: Node.js, Inquirer, CLI-table",
+        "summary": "Techs: Node.js, Inquirer, CLI-table",
         "summary2": "A Node.js Shopping and Inventory Management Application. As a customer, browse items and purchase. Two management modes that let you create new products, order more inventory and track inventory needs",
         "dark": true
-    }
-    ,
+    },
     {
         "projectName": "Holy Node-js Batman!",
         "githubUrl": "https://github.com/betonit007/node-word-guess",
@@ -186,11 +252,10 @@
         "imgName": "batman1.jpg",
         "scrollPics": "batman1.jpg batman2.jpg",
         "Description": "A Node.js Word Guess Game",
-        "summary" : "Techs: Node.js, Inquirer",
+        "summary": "Techs: Node.js, Inquirer",
         "summary2": "Node Word Guess is a Batman themed, \"hang-man\" word guessing game that utilizes the NPM package exclamation to generate random Robin Sayings.",
         "dark": true
-    }
-    ,
+    },
     {
         "projectName": "Liri-Bot",
         "githubUrl": "https://github.com/betonit007/liri-node-app",
@@ -200,7 +265,7 @@
         "imgName": "node.jpg",
         "scrollPics": "node.jpg",
         "Description": "A Node.js Siri clone",
-        "summary" : "Techs: Node.js, Spotify & OMDB API",
+        "summary": "Techs: Node.js, Spotify & OMDB API",
         "summary2": "Liri-Bot is a Siri clone that lets you search to get all the latest info on all your entertainment choices",
         "dark": true
     }
