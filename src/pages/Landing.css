@@ -121,7 +121,7 @@ h1, .heading-primary-sub, .myName {
 .learn {
   display: flex;
   color: var(--main-color);
-  background-color: white;
+  background-color: var(--secondary-light);
   border-radius: 5px;
   font-size: 3rem;
   padding: 0 5px;
@@ -139,7 +139,7 @@ h1, .heading-primary-sub, .myName {
 
 
 .myName {
-  color: #fff;
+  color: var(--secondary-light);
 }
 
 .plane1 {

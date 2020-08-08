@@ -9,7 +9,7 @@
     flex-wrap: wrap;
     align-content: center;
     margin: 0 auto;
-    color: rgb(76, 73, 73);
+    color: var(--secondary-dark);
     max-width: 1024px;
 }
 
@@ -22,12 +22,12 @@
 
 .aboutMeHeader {
     font-weight: 600;
-    color: beige;
+    color: var(--secondary-light);
 }
 
 .aboutMeSub {
     font-weight: 300;
-    color: beige;
+    color: var(--secondary-light);
 }
 
 .bio {

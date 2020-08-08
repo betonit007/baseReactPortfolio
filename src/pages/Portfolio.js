@@ -2,65 +2,36 @@ import React, { useState } from "react";
 import ProjectCard from "./components/ProjectCard";
 import allProjects from "../utils/projects.json";
 import { useTrail, animated } from 'react-spring'
+import PortfolioNav from './components/PortfolioNav'
 import "./Portfolio.css";
 
 const Portfolio = () => {
-  const [pFilter, setPFilter] = useState("A");
-  const [projects, setProjects] = useState(allProjects.filter((p) => p.Description.includes('React')))
 
-  const trail = useTrail(projects.length, {
+  const [projects, setProjects] = useState({ selected: allProjects.filter((p) => p.Description.includes('React')), tech: "React" })
+
+  const trail = useTrail(projects.selected.length, {
     from: { marginLeft: -40, opacity: 0, transform: 'translate3d(0,-40px,0)' },
     to: { marginLeft: 0, opacity: 1, transform: 'translate3d(0,0px,0)' }
   })
 
   return (
     <div id="portfolio" style={{ height: "100vh" }}>
-      <div className="portMenu">
-        <div
-          className={`${
-            pFilter === "React" ? "selected techSelection" : "techSelection"
-            } `}
-          onClick={() => setProjects(allProjects.filter(p => p.Description.includes('React')))}
-        >
-          React
-        </div>
-        <div
-          className={`${
-            pFilter === "javascript"
-              ? "selected techSelection"
-              : "techSelection"
-            } `}
-          onClick={() => setProjects(allProjects.filter(p => p.Description.includes('javascript')))}
-        >
-          Javascript
-        </div>
-        <div
-          className={`${
-            pFilter === "jquery" ? "selected techSelection" : "techSelection"
-            } `}
-          onClick={() => setProjects(allProjects.filter(p => p.Description.includes('jquery')))}
-        >
-          JQuery
-        </div>
-        <div
-          className={`${
-            pFilter === "Node" ? "selected techSelection" : "techSelection"
-            } `}
-          onClick={() => setProjects(allProjects.filter(p => p.Description.includes('Node')))}
-        >
-          Node.js
-        </div>
-      </div>
-
+      {/* Navbar for selection of different techs */}
+      <PortfolioNav
+        projects={projects}
+        setProjects={setProjects}
+        allProjects={allProjects}
+      />
+      {/* Container where selected technology and associated projects will */}
       <div className={`portSlideContainer`}>
         {trail.map((props, index) => {
           return (
             <animated.div
-              key={projects[index].githubUrl}
+              key={projects.selected[index].githubUrl}
               style={props}
-              className='box'
+              className='animated-container'
             >
-              {<ProjectCard item={projects[index]} />}
+              {<ProjectCard item={projects.selected[index]} />}
             </animated.div>
           )
         })}

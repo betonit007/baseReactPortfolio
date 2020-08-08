@@ -10,4 +10,6 @@
 
 :root {
     --main-color: rgb(20, 77, 170);
+    --secondary-dark :rgb(149, 144, 144);
+    --secondary-light: whitesmoke;
   }
