@@ -10,9 +10,10 @@ const Portfolio = () => {
   const [projects, setProjects] = useState({ selected: allProjects.filter((p) => p.Description.includes('React')), tech: "React" })
 
   const trail = useTrail(projects.selected.length, {
-    from: { marginLeft: -40, opacity: 0, transform: 'translate3d(0,-40px,0)' },
-    to: { marginLeft: 0, opacity: 1, transform: 'translate3d(0,0px,0)' }
+    from: { marginTop: -100, opacity: 0, transform: 'translate3d(0,-40px,0)' },
+    to: { marginTop: 0, opacity: 1, transform: 'translate3d(0,0px,0)' }
   })
+
 
   return (
     <div id="portfolio" style={{ height: "100vh" }}>
@@ -22,7 +23,7 @@ const Portfolio = () => {
         setProjects={setProjects}
         allProjects={allProjects}
       />
-      {/* Container where selected technology and associated projects will */}
+      {/* Container where selected technology and associated projects will render */}
       <div className={`portSlideContainer`}>
         {trail.map((props, index) => {
           return (

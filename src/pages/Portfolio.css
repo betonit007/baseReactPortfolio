@@ -12,6 +12,7 @@
   justify-content: center;
   align-content: flex-start;
   padding-top: 20px;
+  overflow: hidden;
 }
 
 .animated-container {
@@ -20,11 +21,11 @@
   width: 200px;
   margin: 10px;
   border-radius: 5px;
-  box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.4);
 }
 
 @media screen and (max-width: 550px) {
-  .box {
+  .animated-container {
     flex: 0 1 40%;
     height: 20%;
     margin: 10px;
