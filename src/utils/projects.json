@@ -1,5 +1,22 @@
 [
     {
+        "projectName": "See It Thru",
+        "githubUrl": "https://github.com/betonit007/SeeItThru",
+        "deployedLink": "https://betonit007.github.io/SeeItThru/",
+        "techs": "Javascript",
+        "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/connectedCars.png?raw=true",
+        "imgName": "SI1.png",
+        "scrollPics": "SI1.png SI2.png SI4.png",
+        "Description": "A javascript",
+        "summary": "Techs: Modern HTML5, CSS3 and Javascript",
+        "summary2": "Plan and track all your objectives with 'See It Thru!' Create new Tasks, edit them and then 'drop and drag' them as you make progress.",
+        "alltechs": [
+            "Javascipt",
+            "HTML",
+            "CSS3"
+        ]
+    },
+    {
         "projectName": "Mars Explorer",
         "githubUrl": "https://github.com/betonit007/Mars-Rover",
         "deployedLink": "https://betonit007.github.io/Mars-Rover",

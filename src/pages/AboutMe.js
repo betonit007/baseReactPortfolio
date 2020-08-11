@@ -10,7 +10,7 @@ const AboutMe = () => {
         <div id='about' style={{ height: '100vh' }}>
             <div className="aboutMeContainer">
                 <div className="photo">
-                    <img src={Portrait} alt="me" />
+                    <img src={Portrait} alt="Tim Nagorski" title="Tim Nagorski" />
                 </div>
                 <div className="bio">
                     <h1 className='aboutMeHeader'>About Me</h1>

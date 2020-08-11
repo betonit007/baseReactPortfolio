@@ -2,7 +2,7 @@
 #nav {
   height: 50px;
   border-bottom: 1px solid var(--main-color);;
-  background-color: rgb(149, 144, 144);
+  background-color: var(--secondary-dark);
 }
 .navWrapper {
   height: 50px;

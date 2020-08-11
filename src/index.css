@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* changes box model so that borders and padding are no longer added to height and width */
+    box-sizing: border-box;
+    /* changes box model so that borders and padding are no longer added to height and width */
     text-decoration: none;
     font-size: 62.5%;
     font-family: 'Nunito', sans-serif;
@@ -10,6 +11,11 @@
 
 :root {
     --main-color: rgb(20, 77, 170);
-    --secondary-dark :rgb(149, 144, 144);
+    --secondary-dark: rgb(149, 144, 144);
     --secondary-light: whitesmoke;
-  }
+    
+    /* Standard */
+    /* --main-color: rgb(20, 77, 170);
+    --secondary-dark :rgb(149, 144, 144);
+    --secondary-light: whitesmoke; */
+}
