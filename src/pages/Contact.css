@@ -53,6 +53,10 @@ input[type='text'],
     cursor: pointer;
 }
 
+.btn:hover {
+  transform: scale(.97);
+}
+
 .sendSuccessContainer {
     background-color: var(--secondary-light);
     position: absolute;
@@ -69,6 +73,7 @@ input[type='text'],
     padding: 0;
     animation-name: flyInOutHorizontal;
     animation-duration: 3s;
+    z-index: 100;
 }
 
 .sendSuccess {
@@ -80,6 +85,7 @@ input[type='text'],
     background-color: rgba(255, 0, 0, 0.493);;
     padding-bottom: 20px;
     clip-path: polygon(50% 45%, 100% 0%, 100% 100%, 0 100%, 0 0%);
+    z-index: 100;
 }
 
 .homeLinkContainer {

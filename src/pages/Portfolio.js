@@ -7,7 +7,7 @@ import "./Portfolio.css";
 
 const Portfolio = () => {
 
-  const [projects, setProjects] = useState({ selected: allProjects.filter((p) => p.Description.includes('React')), tech: "React" })
+  const [projects, setProjects] = useState({ selected: allProjects.filter((p) => p.techs.includes('MERN')), tech: "MERN" })
 
   const trail = useTrail(projects.selected.length, {
     from: { marginTop: -100, opacity: 0, transform: 'translate3d(0,-40px,0)' },

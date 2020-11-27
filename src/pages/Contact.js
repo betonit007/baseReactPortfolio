@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import emailjs from 'emailjs-com'
 import './Contact.css'
 import { HashLink } from 'react-router-hash-link'
 
@@ -25,9 +26,9 @@ const ContactMe = () => {
     }
 
     const sendEmail = async () => {
-        let reply = await window.emailjs.send(
+        let reply = await emailjs.send(
             'gmail', 'portfolio',
-            formData
+            formData, "user_j1oT0peCjK8av8K6tYQBO"
         )
         if (reply.status === 200) {
             setEmailSuccess(true);

@@ -1,5 +1,64 @@
 [
     {
+        "projectName": "Fly-Fitness",
+        "githubUrl": "https://github.com/betonit007/flyFitness",
+        "deployedLink": "https://flyfitness.herokuapp.com",
+        "techs": "MERN Stack, PUSHER",
+        "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/connectedCars.png?raw=true",
+        "imgName": "fly1.png",
+        "scrollPics": "fly1.png fly2.png fly3.png fly4.png fly5.png fly6.png fly7.png",
+        "Description": "Fly Fitnes is a MERN stack, ecommerce website that utilizes Redux along with its new hooks: useSelector and useDispatch.",
+        "summary": "Techs: MERN Stack, Redux, Paypal API",
+        "summary2": "Fly Fitnes is a MERN stack, ecommerce website that utilizes Redux along with its new hooks: useSelector and useDispatch. As a customer, view items, select quantity and add items to cart. Then checkout with paypal or any major credit card. As an admin, create / edit inventory and manage user accounts. To login as Admin - user id: admin@example.com, password: 123456",
+        "alltechs": [
+            "React",
+            "React Hooks",
+            "Redux",
+            "JWT WebToken",
+            "BCrypt",
+            "Mongoose"
+        ]
+    },
+    {
+        "projectName": "Fly-Fitness",
+        "githubUrl": "https://github.com/betonit007/mernChat",
+        "deployedLink": "https://mernpusherchat.uk.r.appspot.com/",
+        "techs": "MERN Stack, Paypal API",
+        "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/connectedCars.png?raw=true",
+        "imgName": "mchat1.png",
+        "scrollPics": "mchat1.png mchat2.png mchat3.png mchat4.png mchat5.png",
+        "Description": "A browswer-based instant messaging application that allows users to exchange text and image messages for free.",
+        "summary": "Techs: MERN Stack, Pusher, Cloudinary",
+        "summary2": "MERN Chat live is a MERN stack app that utitlizes Pusher. Pusher is a hosted service that adds real-time data functionality to web and mobile applications. Chat istantly with your friends. Upload an avatar, select emojis, create your own room and upload photos!",
+        "alltechs": [
+            "React",
+            "React Hooks",
+            "JWT WebToken",
+            "BCrypt",
+            "Mongoose",
+            "pusher",
+            "Cloudinary"
+        ]
+    },
+    {
+        "projectName": "Your Responsive Portfolio",
+        "githubUrl": "https://github.com/betonit007/dynamic-navbar",
+        "deployedLink": "https://betonit007.github.io/dynamic-navbar/",
+        "techs": "Javascript",
+        "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/connectedCars.png?raw=true",
+        "imgName": "dp1.png",
+        "scrollPics": "dp1.png dp2.png dp3.png dp4.png",
+        "Description": "A javascript",
+        "summary": "Techs: Modern HTML5, CSS3 and Javascript",
+        "summary2": "The Ultimate Responsive Portfolio. This application utilizes all of the most recent advances in Javascript, HTML5 and CSS3 to create a visually stunning and user-friendly experience.",
+        "alltechs": [
+            "Javascipt",
+            "HTML",
+            "CSS3"
+        ]
+    },
+    
+    {
         "projectName": "See It Thru",
         "githubUrl": "https://github.com/betonit007/SeeItThru",
         "deployedLink": "https://betonit007.github.io/SeeItThru/",
@@ -71,6 +130,48 @@
             "Google Maps"
         ]
     },
+    
+    {
+        "projectName": "Fuel Vision",
+        "githubUrl": "https://github.com/betonit007/gastracker",
+        "deployedLink": "https://gastracker41.ue.r.appspot.com/",
+        "techs": "MERN Stack, Google Vision",
+        "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/connectedCars.png?raw=true",
+        "imgName": "ggt1.jpg",
+        "scrollPics": "ggt2.jpg ggt3.jpg ggt4.jpg ggt5.jpg ggt6.jpg ggt7.jpg ggt8.jpg",
+        "Description": "A Google Vision React Hooks Context Full-Stack Mongoose JWT Bcrypt MERN",
+        "summary": "Techs: Google Vision OCR, MERN Stack, Context API, JWT, Bcrypt",
+        "summary2": "A mobile app that utilizes Google Vision or OCR - Optical Character Recognition to detect and extract text from images. Log in / Register and record all your gas expenses with one press. Go back and edit or delete any entries.",
+        "alltechs": [
+            "Google Vision",
+            "React",
+            "React Hooks",
+            "JWT WebToken",
+            "BCrypt",
+            "Mongoose"
+        ]
+    },
+    {
+        "projectName": "Connected Cars",
+        "githubUrl": "https://github.com/betonit007/connectedCars",
+        "deployedLink": "https://connectedcars-289918.ue.r.appspot.com",
+        "techs": "MERN Stack",
+        "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/connectedCars.png?raw=true",
+        "imgName": "cc1.jpg",
+        "scrollPics": "cc5.jpg cc1.jpg cc2.jpg cc3.jpg cc6.jpg cc7.jpg cc8.jpg",
+        "Description": "A React Hooks Context Full-Stack Mongoose JWT Bcrypt",
+        "summary": "Techs: MERN Stack, Context API, JWT, Bcrypt, Cloudinary, Tailwind CSS",
+        "summary2": "Connected Cars is the ultimate tool for small car dealerships. Display your entire inventory in moments with our simple to use interface. Search for vehicles by simply typing in the features you want. Save vehicles in your virtural garage. *For admin access - Login: Admin1@connected-cars.com, password: admin1",
+        "alltechs": [
+            "React",
+            "React Hooks",
+            "JWT WebToken",
+            "BCrypt",
+            "Cloudinary",
+            "Express-Validator",
+            "Mongoose"
+        ]
+    },
     {
         "projectName": "Fire Chat",
         "githubUrl": "https://github.com/betonit007/firechat",
@@ -87,47 +188,6 @@
             "React",
             "Firebase",
             "Firebase Authentication"
-        ]
-    },
-    {
-        "projectName": "Fuel Vision",
-        "githubUrl": "https://github.com/betonit007/gastracker",
-        "deployedLink": "https://fuelvision.herokuapp.com",
-        "techs": "Google Vision, MERN Stack",
-        "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/connectedCars.png?raw=true",
-        "imgName": "gs1.jpg",
-        "scrollPics": "gs1.jpg gs2.jpg gs3.jpg gs4.jpg",
-        "Description": "A Google Vision React Hooks Context Full-Stack Mongoose JWT Bcrypt",
-        "summary": "Techs: Google Vision OCR, MERN Stack, Context API, JWT, Bcrypt",
-        "summary2": "A mobile app that utilizes Google Vision or OCR - Optical Character Recognition to detect and extract text from images. Log in / Register and record all your gas expenses with one press!",
-        "alltechs": [
-            "Google Vision",
-            "React",
-            "React Hooks",
-            "JWT WebToken",
-            "BCrypt",
-            "Mongoose"
-        ]
-    },
-    {
-        "projectName": "Connected Cars",
-        "githubUrl": "https://github.com/betonit007/connectedCars",
-        "deployedLink": "https://calm-taiga-28234.herokuapp.com/",
-        "techs": "MERN Stack",
-        "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/connectedCars.png?raw=true",
-        "imgName": "cc1.jpg",
-        "scrollPics": "cc5.jpg cc1.jpg cc2.jpg cc3.jpg cc6.jpg cc7.jpg cc8.jpg",
-        "Description": "A React Hooks Context Full-Stack Mongoose JWT Bcrypt",
-        "summary": "Techs: MERN Stack, Context API, JWT, Bcrypt, Cloudinary, Tailwind CSS",
-        "summary2": "Connected Cars is the ultimate tool for small car dealerships. Display your entire inventory in moments with our simple to use interface. Search for vehicles by simply typing in the features you want. Save vehicles in your virtural garage.",
-        "alltechs": [
-            "React",
-            "React Hooks",
-            "JWT WebToken",
-            "BCrypt",
-            "Cloudinary",
-            "Express-Validator",
-            "Mongoose"
         ]
     },
     {
@@ -226,7 +286,7 @@
     {
         "projectName": "Fuel 4 Thought",
         "githubUrl": "https://github.com/betonit007/fuelOCR",
-        "techs": "Google-OCR / Sequilize",
+        "techs": "jquery Google-OCR / Sequilize",
         "deployedLink": "https://whispering-mesa-87259.herokuapp.com/",
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/fuel2.jpg?raw=true",
         "imgName": "ft1.jpg",
@@ -239,7 +299,7 @@
         "projectName": "Burger Time",
         "githubUrl": "https://github.com/betonit007/sequelizedBurger",
         "deployedLink": "https://pacific-hollows-84060.herokuapp.com/",
-        "techs": "MySQL / Handle-bars",
+        "techs": "jquery MySQL / Handle-bars",
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/burger.jpg?raw=true",
         "imgName": "eb1.jpg",
         "scrollPics": "eb1.jpg",
