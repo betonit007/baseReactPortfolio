@@ -1,43 +1,32 @@
-@keyframes moveUpToRight {
-  0% {
-    height: 50%;
-    width: 50%;
-    transform: translate(20vw, -20vh);
-  }
-
-  75% {
-    height: 15%;                   /* between 50% and 100% nothing changes, this is how to create a delay between animation iterations */
-    width: 15%;
-    transform: translate(115vw, -115vh);
-  }
-
-  100% {
-    height: 15%;
-    width: 15%;
-    transform: translate(115vw, -115vh);
-  }
-}
-
 .raise {
   z-index: 10;
 }
 
-
 #landing {
-    background-image: 
-    linear-gradient(
-      to bottom left,
-      rgba(111, 197, 231, 0.801),
-      rgba(4, 63, 156, 0.801))
-      /* url(../utils/imgs/landing.jpg) */;
-    background-size: cover;
-    background-position: center;
-    position: relative; /*Issue with cloud animation overflowing outside of parent element. */
-    display: flex; 
-    overflow: hidden;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-image: linear-gradient( to bottom left, rgba(111, 197, 231, 0.801), rgba(4, 63, 156, 0.801))
+  /* url(../utils/imgs/landing.jpg) */
+  ;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  /*Issue with cloud animation overflowing outside of parent element. */
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.2);
+  z-index: 1;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  backdrop-filter: blur(40px);
+  border: solid 2px transparent;
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.05);
 }
 
 h1, .heading-primary-sub, .myName {
@@ -56,7 +45,11 @@ h1, .heading-primary-sub, .myName {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+}
+
+.hashLink-container a {
+  width: auto;
+  margin: 0 auto;
 }
 
 .hashLink-container:hover .arrow {
@@ -81,7 +74,6 @@ h1, .heading-primary-sub, .myName {
     transform: rotate(100deg)
   }
   70% {
-  
     transform: rotate(82deg)
   }
   80% {
@@ -103,7 +95,6 @@ h1, .heading-primary-sub, .myName {
     transform: rotate(-10deg)
   }
   70% {
-  
     transform: rotate(2deg)
   }
   80% {
@@ -117,6 +108,24 @@ h1, .heading-primary-sub, .myName {
   }
 }
 
+@keyframes moveUpToRight {
+  0% {
+    height: 50%;
+    width: 50%;
+    transform: translate(20vw, -20vh);
+  }
+  75% {
+    height: 15%;
+    /* between 50% and 100% nothing changes, this is how to create a delay between animation iterations */
+    width: 15%;
+    transform: translate(115vw, -115vh);
+  }
+  100% {
+    height: 15%;
+    width: 15%;
+    transform: translate(115vw, -115vh);
+  }
+}
 
 .learn {
   display: flex;
@@ -135,8 +144,6 @@ h1, .heading-primary-sub, .myName {
   font-size: 3rem;
   margin: 0 5px;
 }
-
-
 
 .myName {
   color: var(--secondary-light);
@@ -166,22 +173,19 @@ h1, .heading-primary-sub, .myName {
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-delay: 1s;
- 
 }
 
- .planeFlight {
+.planeFlight {
   z-index: 1;
   position: absolute;
-  background-image: 
-    url(../utils/imgs/pAirplane3.png);
-    background-size: cover;
-    background-position: center;
-} 
-
+  background-image: url(../utils/imgs/pAirplane3.png);
+  background-size: cover;
+  background-position: center;
+}
 
 @media screen and (max-width: 600px) {
   .planeFlight {
-   display: none;
+    display: none;
   }
   .heading-primary, .myName, .heading-primary-sub {
     font-size: 3rem;

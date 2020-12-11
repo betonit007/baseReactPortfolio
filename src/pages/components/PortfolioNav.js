@@ -1,5 +1,5 @@
 import React from 'react'
-import { useSpring, animated } from 'react-spring'
+import { useSpring } from 'react-spring'
 import './PortfolioNav.css'
 
 const PortfolioNav = ({ projects, setProjects, allProjects }) => {

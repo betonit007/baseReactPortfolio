@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import PicScroller from './components/PicScroller';
 import { ReactComponent as Github } from '../utils/imgs/SVG/github.svg'
@@ -22,7 +22,7 @@ const Modal = ({ setModal, imgName, item, dark }) => {
 
 
   return ReactDOM.createPortal(
-    <div onClick={() => renderModal(false)} className='modalContainer'>
+    <div onClick={renderModal} className='modalContainer'>
       <div className='modalContent' onClick={(e) => e.stopPropagation()} >
         <div className='topModal'>
           <PicScroller pics={scrollImages} dark={dark} />
@@ -38,7 +38,7 @@ const Modal = ({ setModal, imgName, item, dark }) => {
           <div className="viewApp">
             <a className="gotoApp" href={item.deployedLink} target="_blank" rel="noopener noreferrer">VIEW APP &#10150;</a>
             <a className="gotoGithub" href={item.githubUrl} target="_blank" rel="noopener noreferrer"><Github/></a>
-            <div className='close' onClick={() => renderModal(false)}>x</div>
+            <div className='close' onClick={renderModal}>x</div>
           </div>
         </section>
       </div>
