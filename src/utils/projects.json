@@ -1,15 +1,15 @@
 [
     {
-        "projectName": "Fly-Fitness",
-        "githubUrl": "https://github.com/betonit007/flyFitness",
-        "deployedLink": "https://flyfitness.herokuapp.com",
+        "projectName": "UA-Systems-4U",
+        "githubUrl": "https://github.com/betonit007/UA-Systems-4U",
+        "deployedLink": "https://ua-systems-4u.herokuapp.com/",
         "techs": "MERN Stack, Paypal API",
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/connectedCars.png?raw=true",
-        "imgName": "fly1.png",
-        "scrollPics": "fly1.png fly2.png fly3.png fly4.png fly5.png fly6.png fly7.png",
-        "Description": "Fly Fitnes is a MERN stack, ecommerce website that utilizes Redux along with its new hooks: useSelector and useDispatch.",
+        "imgName": "ua1.png",
+        "scrollPics": "ua1.png ua2.png ua3.png ua4.png ua5.png ua6.png ua7.png ua8.png",
+        "Description": "UA-Systems-4U is a MERN stack, ecommerce website that utilizes Redux along with its new hooks: useSelector and useDispatch.",
         "summary": "Techs: MERN Stack, Redux, Paypal API",
-        "summary2": "Fly Fitnes is a MERN stack, ecommerce website that utilizes Redux along with its new hooks: useSelector and useDispatch. As a customer, view items, select quantity and add items to cart. Then checkout with paypal or any major credit card. As an admin, create / edit inventory and manage user accounts. To login as Admin - user id: admin@example.com, password: 123456",
+        "summary2": "UA-Systems-4U is a MERN stack, ecommerce website that utilizes Redux along with its new hooks: useSelector and useDispatch. As a customer, view items, select quantity and add items to cart. Then checkout with paypal or any major credit card. As an admin, create / edit inventory and manage user accounts. To login as Admin - user id: admin@example.com, password: 123456",
         "alltechs": [
             "React",
             "React Hooks",
@@ -20,7 +20,7 @@
         ]
     },
     {
-        "projectName": "Fly-Fitness",
+        "projectName": "MERN Chat",
         "githubUrl": "https://github.com/betonit007/mernChat",
         "deployedLink": "https://mernpusherchat.uk.r.appspot.com/",
         "techs": "MERN Stack, Pusher",
@@ -154,7 +154,7 @@
     {
         "projectName": "Connected Cars",
         "githubUrl": "https://github.com/betonit007/connectedCars",
-        "deployedLink": "https://connectedcars-289918.ue.r.appspot.com",
+        "deployedLink": "https://connected2cars.herokuapp.com/",
         "techs": "MERN Stack",
         "imgUrl": "https://github.com/betonit007/Bootstrap---Portfolio/blob/master/assets/images/connectedCars.png?raw=true",
         "imgName": "cc1.jpg",

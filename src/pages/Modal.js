@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import PicScroller from './components/PicScroller';
 import { ReactComponent as Github } from '../utils/imgs/SVG/github.svg'
